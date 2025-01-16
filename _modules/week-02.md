@@ -20,7 +20,7 @@ Jan 14
 
 Jan 15
 : [**Lec 3**]({{ site.baseurl }}/assets/slides/deeprob_lecture_03_linear_classifiers.pdf){: #lec-3 .label .label-purple target="_blank" rel="noopener noreferrer"} [**Linear Classifiers**]({{ site.baseurl }}/assets/slides/deeprob_lecture_03_linear_classifiers.pdf){: target="_blank" rel="noopener noreferrer"}
-: **Project 1 out**{: .label .label-yellow }
+: [**Project 1 out**{: .label .label-yellow }]({{ site.baseurl }}/projects/project1/){: .project-link}
   : [📖 231n Linear Classification](https://cs231n.github.io/linear-classify/){: target="_blank" rel="noopener noreferrer"}
 
 

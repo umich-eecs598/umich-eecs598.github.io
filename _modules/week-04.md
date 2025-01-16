@@ -21,7 +21,7 @@ Jan 28
 
 Jan 29
 : **Lec 6**{: #lec-6 target="_blank" rel="noopener noreferrer" .label .label-purple } **Backpropagation**
-: **Project 1 due**{: .label .label-red } **Project 2 out**{: .label .label-yellow }
+: **Project 2 out**{: .label .label-yellow }
   : [📖 cs231n Backpropagation](https://cs231n.github.io/optimization-2/){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
   : [📖 GBC Sec 6.5-6.6](https://www.deeplearningbook.org/contents/mlp.html#pf25){: target="_blank" rel="noopener noreferrer"}
@@ -29,5 +29,6 @@ Jan 29
   : [📖 Olah, Backpropagation](http://colah.github.io/posts/2015-08-Backprop/){: target="_blank" rel="noopener noreferrer"}
 
 
-
+Feb 2
+: [**Project 1 due**{: .label .label-red }]({{ site.baseurl }}/projects/project1/){: .project-link}
 
