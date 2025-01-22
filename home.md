@@ -8,7 +8,27 @@ permalink: /
 
 
 <div class="banner-container">
-<img src="{{site.baseurl}}/assets/images/banner.jpg" alt="Banner" style="width:100%;">
+<!-- <img src="{{site.baseurl}}/assets/images/banner.jpg" alt="Banner" style="width:100%;"> -->
+
+<video id="bannerVideo" width="100%" autoplay loop muted playsinline>
+  <source src="{{site.baseurl}}/assets/videos/banner.webm" type="video/webm">
+</video>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var video = document.getElementById('bannerVideo');
+
+    video.play();
+
+    video.addEventListener('ended', function() {
+      video.currentTime = 0;
+      video.play();
+    });
+  });
+
+
+</script>
+
 <div class="banner-info">
 	<!-- <div class="banner-title">DeepRob</div> -->
 	<!-- <div class="banner-subtitle">Deep Learning for Robot Perception</div> -->
