@@ -18,6 +18,8 @@ Jan 21
 
 Jan 22
 : [**Lec 4**]({{ site.baseurl }}/assets/slides/deeprob_lecture_04_optimization.pdf){: #lec-4 .label .label-purple target="_blank" rel="noopener noreferrer" } [**Regularization + Optimization**]({{ site.baseurl }}/assets/slides/deeprob_lecture_04_optimization.pdf){: target="_blank" rel="noopener noreferrer"}
+  : [![]({{ site.baseurl }}/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://leccap.engin.umich.edu/leccap/player/r/PF88qo){: target="_blank" rel="noopener noreferrer"}
+: &nbsp;
   : [📖 231n Optimization](https://cs231n.github.io/optimization-1/){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
   : [📖 GBC Sec 8.1-8.6](https://www.deeplearningbook.org/contents/optimization.html){: target="_blank" rel="noopener noreferrer"}
