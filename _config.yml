@@ -36,7 +36,7 @@ aux_links_new_tab: true
 aux_links:
   Forum:
     - https://piazza.com/class/m4pgejar4ua2qf
-  Office Hours:
+  OH Queue:
     - https://oh.eecs.umich.edu/course_queues/884
   Autograder:
     - https://autograder.io/web/course/299

@@ -95,9 +95,6 @@ permalink: /
 </div>
 
 
-{: .highlight }
-**Note: This course website is still under development and is subject to change.**
-
 
 This course covers the necessary background of neural-network-based deep learning for robot perception – building on advancements in computer vision that enable robots to physically manipulate objects. During the first part of this course, students will learn to implement, train and debug their own neural networks. During the second part of this course, students will explore recent emerging topics in deep learning for robot perception and manipulation. This exploration will include analysis of research publications in the area, building up to reproducing and implementing state-of-the-art deep learning approaches as a final course project.
 
@@ -162,5 +159,20 @@ This course builds on and is indebted to these existing courses (as a “star”
 
 </div>
 
+---
 
+# Office Hours Schedule
+{: #weekly-schedule }
+
+<div markdown="1" style="max-width: 900px">
+{: .highlight }
+**The schedule of instructor office hours, including the in-person locations, is provided in the following Google calendar.**
+</div>
+
+<div markdown="1" style="max-width: 900px">
+{: .note }
+**For accessing office hours virtually, please refer to the calendar for each instructor's preferred Zoom link. If no Zoom link is listed, please join their office hours queue and share your personal Zoom link as your location.**
+</div>
+
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FDetroit&showPrint=0&mode=WEEK&src=Y18zZDZhOGMyMTg0Y2I3ZDA4ZmIwZDg4OGM1OWNiNTU0OGViNzczMTZiOTg3ZTE3YmFlYjFkZDkwOWRhZWQyZTc2QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23C0CA33" style="border:solid 1px #777" width="900" height="600" frameborder="0" scrolling="no"></iframe>
 

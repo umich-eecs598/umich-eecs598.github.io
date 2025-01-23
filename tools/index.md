@@ -2,7 +2,7 @@
 layout: page
 title: Tools
 description: Collection of deep learning tools and frameworks.
-nav_order: 5
+nav_order: 6
 has_children: false
 has_toc: true
 ---
