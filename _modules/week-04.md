@@ -3,7 +3,7 @@ title: Week 4
 ---
 
 Jan 27
-: **Lec 5**{: #lec-5 target="_blank" rel="noopener noreferrer" .label .label-purple } **Neural Networks I**
+: [**Lec 5**]({{ site.baseurl }}/assets/slides/deeprob_lecture_05_neural_networks.pdf){: #lec-5 target="_blank" rel="noopener noreferrer" .label .label-purple } [**Neural Networks I**]({{ site.baseurl }}/assets/slides/deeprob_lecture_05_neural_networks.pdf){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
   : [📖 231n Neural Networks](https://cs231n.github.io/neural-networks-1/){: target="_blank" rel="noopener noreferrer" }
 : &nbsp;
