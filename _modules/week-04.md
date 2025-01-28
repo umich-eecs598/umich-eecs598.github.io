@@ -2,8 +2,11 @@
 title: Week 4
 ---
 
+
+
 Jan 27
 : [**Lec 5**]({{ site.baseurl }}/assets/slides/deeprob_lecture_05_neural_networks.pdf){: #lec-5 target="_blank" rel="noopener noreferrer" .label .label-purple } [**Neural Networks I**]({{ site.baseurl }}/assets/slides/deeprob_lecture_05_neural_networks.pdf){: target="_blank" rel="noopener noreferrer"}
+  : [![]({{ site.baseurl }}/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://leccap.engin.umich.edu/leccap/player/r/4SXQ4D){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
   : [📖 231n Neural Networks](https://cs231n.github.io/neural-networks-1/){: target="_blank" rel="noopener noreferrer" }
 : &nbsp;
