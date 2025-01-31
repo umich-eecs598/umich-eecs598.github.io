@@ -16,7 +16,7 @@ Feb 3
 
 
 Feb 4
-: **Dis 4**{: #dis-4 target="_blank" rel="noopener noreferrer" .label .label-blue } **CNN Object Detection Demo**
+: **Dis 3**{: #dis-3 target="_blank" rel="noopener noreferrer" .label .label-blue } **CNN Object Detection Demo**
 : &nbsp;
 
 

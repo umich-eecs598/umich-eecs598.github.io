@@ -12,7 +12,7 @@ Jan 13
 
 
 Jan 14
-: [**Dis 1**]({{ site.baseurl }}/assets/slides/deeprob_discussion_00.pdf){: #dis-1 .label .label-blue target="_blank" rel="noopener noreferrer" } [**Intro to Python and Pytorch**]({{ site.baseurl }}/assets/slides/deeprob_discussion_00.pdf){: target="_blank" rel="noopener noreferrer"}
+: [**Dis 0**]({{ site.baseurl }}/assets/slides/deeprob_discussion_00.pdf){: #dis-0 .label .label-blue target="_blank" rel="noopener noreferrer" } [**Intro to Python and Pytorch**]({{ site.baseurl }}/assets/slides/deeprob_discussion_00.pdf){: target="_blank" rel="noopener noreferrer"}
   : [![]({{ site.baseurl }}/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://leccap.engin.umich.edu/leccap/player/r/1XpAsw){: target="_blank" rel="noopener noreferrer"}
 
 

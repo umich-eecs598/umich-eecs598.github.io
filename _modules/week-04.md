@@ -16,15 +16,17 @@ Jan 27
 
 
 Jan 28
-: **Dis 3**{: #lab-3 target="_blank" rel="noopener noreferrer" .label .label-blue } **Neural Networks II**
+: **Dis 2**{: #dis-2 target="_blank" rel="noopener noreferrer" .label .label-blue } **Neural Networks II**
+  : [![]({{ site.baseurl }}/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://leccap.engin.umich.edu/leccap/player/r/n0RJiS){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
   : [📖 Nielsen, Universal Approximation](http://neuralnetworksanddeeplearning.com/chap4.html){: target="_blank" rel="noopener noreferrer"}
 
 
 
 Jan 29
-: **Lec 6**{: #lec-6 target="_blank" rel="noopener noreferrer" .label .label-purple } **Backpropagation**
-: **Project 2 out**{: .label .label-yellow }
+: [**Lec 6**]({{ site.baseurl }}/assets/slides/deeprob_lecture_06_backpropagation.pdf){: #lec-6 target="_blank" rel="noopener noreferrer" .label .label-purple } [**Backpropagation**]({{ site.baseurl }}/assets/slides/deeprob_lecture_06_backpropagation.pdf){: target="_blank" rel="noopener noreferrer"}
+  : [![]({{ site.baseurl }}/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://leccap.engin.umich.edu/leccap/player/r/06KI1l){: target="_blank" rel="noopener noreferrer"}
+: &nbsp;
   : [📖 cs231n Backpropagation](https://cs231n.github.io/optimization-2/){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
   : [📖 GBC Sec 6.5-6.6](https://www.deeplearningbook.org/contents/mlp.html#pf25){: target="_blank" rel="noopener noreferrer"}
@@ -33,5 +35,5 @@ Jan 29
 
 
 Feb 2
-: [**Project 1 due**{: .label .label-red }]({{ site.baseurl }}/projects/project1/){: .project-link}
+: [**Project 1 due**{: .label .label-red }]({{ site.baseurl }}/projects/project1/){: .project-link} **Project 2 out**{: .label .label-yellow }
 

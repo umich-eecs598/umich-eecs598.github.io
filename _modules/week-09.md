@@ -12,7 +12,7 @@ Mar 10
 
 
 Mar 11
-: **Dis 8**{: #dis-8 .label .label-blue target="_blank" rel="noopener noreferrer" } **Midterm Review**
+: **Dis 7**{: #dis-7 .label .label-blue target="_blank" rel="noopener noreferrer" } **Midterm Review**
 : &nbsp;
 
 

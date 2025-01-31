@@ -8,7 +8,7 @@ Jan 20
 
 
 Jan 21
-: **Dis 2**{: #dis-2 target="_blank" rel="noopener noreferrer" .label .label-blue } **Datasets + P1 Primer**
+: [**Dis 1**]({{ site.baseurl }}/assets/slides/deeprob_discussion_01.pdf){: #dis-1 target="_blank" rel="noopener noreferrer" .label .label-blue } [**Datasets + P1 Primer**]({{ site.baseurl }}/assets/slides/deeprob_discussion_01.pdf){: target="_blank" rel="noopener noreferrer"}
   : [![]({{ site.baseurl }}/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://leccap.engin.umich.edu/leccap/player/r/dM3dZY){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
   : [📖 Chen et al., ProgressLabeller](https://arxiv.org/abs/2203.00283){: target="_blank" rel="noopener noreferrer"}

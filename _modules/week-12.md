@@ -8,7 +8,7 @@ Mar 31
 
 
 Apr 1
-: **Dis 11**{: #dis-11 .label .label-blue } **Final Project Proposals**
+: **Dis 10**{: #dis-10 .label .label-blue } **Final Project Proposals**
 : &nbsp;
 
 

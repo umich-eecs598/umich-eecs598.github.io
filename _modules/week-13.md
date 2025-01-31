@@ -8,7 +8,7 @@ Apr 7
 
 
 Apr 8
-: **Dis 12**{: #dis-12 .label .label-blue } **Final Project Help**
+: **Dis 11**{: #dis-11 .label .label-blue } **Final Project Help**
 : &nbsp;
 
 

@@ -10,7 +10,7 @@ Mar 17
 
 
 Mar 18
-: **Dis 9**{: #dis-9 .label .label-blue target="_blank" rel="noopener noreferrer" } **Generative Models**
+: **Dis 8**{: #dis-8 .label .label-blue target="_blank" rel="noopener noreferrer" } **Generative Models**
 : &nbsp;
 
 

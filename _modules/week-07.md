@@ -13,7 +13,7 @@ Feb 17
 
 
 Feb 18
-: **Dis 6**{: #dis-6 .label .label-blue target="_blank" rel="noopener noreferrer" } **Training Neural Networks II**
+: **Dis 5**{: #dis-5 .label .label-blue target="_blank" rel="noopener noreferrer" } **Training Neural Networks II**
 : &nbsp;
   : [📖 cs231n Training II](https://cs231n.github.io/neural-networks-3/){: target="_blank" rel="noopener noreferrer"}
 
