@@ -16,7 +16,7 @@ Jan 27
 
 
 Jan 28
-: **Dis 2**{: #dis-2 target="_blank" rel="noopener noreferrer" .label .label-blue } **Neural Networks II**
+: [**Dis 2**]({{ site.baseurl }}/assets/slides/deeprob_discussion_02.pdf){: #dis-2 target="_blank" rel="noopener noreferrer" .label .label-blue } [**Neural Networks II**]({{ site.baseurl }}/assets/slides/deeprob_discussion_02.pdf){: target="_blank" rel="noopener noreferrer"}
   : [![]({{ site.baseurl }}/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://leccap.engin.umich.edu/leccap/player/r/n0RJiS){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
   : [📖 Nielsen, Universal Approximation](http://neuralnetworksanddeeplearning.com/chap4.html){: target="_blank" rel="noopener noreferrer"}
