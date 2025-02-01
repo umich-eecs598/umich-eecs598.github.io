@@ -15,6 +15,6 @@ Apr 15
 
 
 Apr 16
-: **Lec 26**{: #lec-26 .label .label-purple } **Invited Speaker**
+: [**Lec 26**](https://karthikdesingh.com){: #lec-26 .label .label-purple target="_blank" rel="noopener noreferrer" } [**Invited Speaker: Prof. Karhik Desingh**](https://karthikdesingh.com){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
 
