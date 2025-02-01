@@ -2,8 +2,10 @@
 title: Week 14
 ---
 
+
+
 Apr 14
-: **Lec 25**{: #lec-25 .label .label-purple } **Invited Speaker**
+: [**Lec 25**](https://sites.google.com/view/kavehfathian/home){: #lec-25 .label .label-purple } [**Invited Speaker: Prof. Kaveh Fathian**](https://sites.google.com/view/kavehfathian/home){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
 
 
