@@ -3,7 +3,7 @@ title: Week 5
 ---
 
 Feb 3
-: **Lec 7**{: #lec-7 target="_blank" rel="noopener noreferrer" .label .label-purple } **Convolutional Neural Networks**
+: [**Lec 7**]({{ site.baseurl }}/assets/slides/deeprob_lecture_07_convolutional_networks.pdf){: #lec-7 target="_blank" rel="noopener noreferrer" .label .label-purple } [**Convolutional Neural Networks**]({{ site.baseurl }}/assets/slides/deeprob_lecture_07_convolutional_networks.pdf){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
   : [📖 cs231n ConvNets](https://cs231n.github.io/convolutional-networks/){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
