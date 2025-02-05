@@ -24,8 +24,9 @@ Feb 4
 
 
 
+
 Feb 5
-: **Lec 8**{: #lec-8 target="_blank" rel="noopener noreferrer" .label .label-purple } **CNN Architectures I**
+: [**Lec 8**]({{ site.baseurl }}/assets/slides/deeprob_lecture_08_cnn_architectures.pdf){: #lec-8 target="_blank" rel="noopener noreferrer" .label .label-purple } [**CNN Architectures I**]({{ site.baseurl }}/assets/slides/deeprob_lecture_08_cnn_architectures.pdf){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
   : [📖 Krizhevsky et al., AlexNet](https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
