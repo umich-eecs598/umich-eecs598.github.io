@@ -17,7 +17,7 @@ Feb 3
 
 
 Feb 4
-: **Dis 3**{: #dis-3 target="_blank" rel="noopener noreferrer" .label .label-blue } **CNN Object Detection Demo**
+: [**Dis 3**]({{ site.baseurl }}/assets/slides/deeprob_discussion_03.pdf){: #dis-3 target="_blank" rel="noopener noreferrer" .label .label-blue } [**Local Jupyter Notebook Demo**]({{ site.baseurl }}/assets/slides/deeprob_discussion_03.pdf){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
 
 

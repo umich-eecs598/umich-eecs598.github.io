@@ -14,7 +14,7 @@ Jan 13
 Jan 14
 : [**Dis 0**]({{ site.baseurl }}/assets/slides/deeprob_discussion_00.pdf){: #dis-0 .label .label-blue target="_blank" rel="noopener noreferrer" } [**Intro to Python and Pytorch**]({{ site.baseurl }}/assets/slides/deeprob_discussion_00.pdf){: target="_blank" rel="noopener noreferrer"}
   : [![]({{ site.baseurl }}/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://leccap.engin.umich.edu/leccap/player/r/1XpAsw){: target="_blank" rel="noopener noreferrer"}
-
+: &nbsp;
 
 
 
@@ -28,3 +28,4 @@ Jan 15
 
 Jan 19
 : [**Project 0 due**{: .label .label-red }]({{ site.baseurl }}/projects/project0/){: .project-link}
+: &nbsp;

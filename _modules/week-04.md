@@ -35,5 +35,5 @@ Jan 29
 
 
 Feb 2
-: [**Project 1 due**{: .label .label-red }]({{ site.baseurl }}/projects/project1/){: .project-link} **Project 2 out**{: .label .label-yellow }
-
+: [**Project 1 due**{: .label .label-red }]({{ site.baseurl }}/projects/project1/){: .project-link} [**Project 2 out**]({{ site.baseurl }}/projects/project2/){: .label .label-yellow }
+: &nbsp;

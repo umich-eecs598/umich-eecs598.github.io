@@ -25,11 +25,15 @@ Feb 11
 
 Feb 12
 : **Lec 10**{: #lec-10 .label .label-purple target="_blank" rel="noopener noreferrer"} **Object Detection**
-: **Project 2 due**{: .label .label-red } **Project 3 out**{: .label .label-yellow }
+: &nbsp;
   : [📖 cs231n Training I](https://cs231n.github.io/neural-networks-2/){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
   : [📖 Olah et al., Equivariance in Networks](https://distill.pub/2020/circuits/equivariance/){: target="_blank" rel="noopener noreferrer"}
 
 
+
+Feb 16
+: [**Project 2 due**]({{ site.baseurl }}/projects/project2/){: .label .label-red } **Project 3 out**{: .label .label-yellow }
+: &nbsp;
 
 
