@@ -4,11 +4,13 @@ title: Week 7
 
 
 Feb 17
-: **Lec 11**{: #lec-11 .label .label-purple target="_blank" rel="noopener noreferrer" } **Training Neural Networks I**
+: **Lec 11**{: #lec-11 .label .label-purple target="_blank" rel="noopener noreferrer" } **Object Detection**
 : &nbsp;
-  : [📖 cs231n Training II](https://cs231n.github.io/neural-networks-3/){: target="_blank" rel="noopener noreferrer"}
+  : [📖 Girshick et al., R-CNN](https://arxiv.org/abs/1311.2524){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
-  : [📖 Goodfellow et al., Adversarial Examples](https://arxiv.org/abs/1412.6572){: target="_blank" rel="noopener noreferrer"}
+  : [📖 Redmon et al., YOLO](https://arxiv.org/abs/1506.02640){: target="_blank" rel="noopener noreferrer"}
+: &nbsp;
+  : [📖 Lin et al., FCOS](https://arxiv.org/abs/1708.02002){: target="_blank" rel="noopener noreferrer"}
 
 
 
