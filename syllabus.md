@@ -111,10 +111,10 @@ There will be a midterm exam that takes place in-class during the semester.
 Course grades will be determined according to the following criteria:
 
  - [Project 0]({{ site.baseurl }}/projects/project0/):      5%
- - [Project 1]({{ site.baseurl }}/projects/project1/):     10%
- - [Project 2]({{ site.baseurl }}/projects/project2/):     17%
- - [Project 3]({{ site.baseurl }}/projects/):     10%
- - [Project 4]({{ site.baseurl }}/projects/):     10%
+ - [Project 1]({{ site.baseurl }}/projects/project1/):     11%
+ - [Project 2]({{ site.baseurl }}/projects/project2/):     12%
+ - [Project 3]({{ site.baseurl }}/projects/):     12%
+ - [Project 4]({{ site.baseurl }}/projects/):     12%
  - Midterm Exam: 10%
  - [Final Project (group)]({{ site.baseurl }}/projects/): 23%
  - In-class Activities: 10%
