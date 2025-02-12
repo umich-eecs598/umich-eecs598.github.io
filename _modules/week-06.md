@@ -18,6 +18,7 @@ Feb 10
 
 Feb 11
 : **Dis 4**{: #dis-4 .label .label-blue target="_blank" rel="noopener noreferrer" } **P2 Help**
+  : [![]({{ site.baseurl }}/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://leccap.engin.umich.edu/leccap/player/r/oUpfVH){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
   : [📖 Krizhevsky et al., AlexNet](https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html){: target="_blank" rel="noopener noreferrer"}
 
@@ -26,7 +27,7 @@ Feb 11
 
 
 Feb 12
-: **Lec 10**{: #lec-10 .label .label-purple target="_blank" rel="noopener noreferrer"} **Training Neural Networks II**
+: [**Lec 10**]({{ site.baseurl }}/assets/slides/deeprob_lecture_10_training_neural_networks.pdf){: #lec-10 .label .label-purple target="_blank" rel="noopener noreferrer"} [**Training Neural Networks II**]({{ site.baseurl }}/assets/slides/deeprob_lecture_10_training_neural_networks.pdf){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
   : [📖 cs231n Training II](https://cs231n.github.io/neural-networks-3/){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
