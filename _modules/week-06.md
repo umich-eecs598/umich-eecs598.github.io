@@ -28,6 +28,7 @@ Feb 11
 
 Feb 12
 : [**Lec 10**]({{ site.baseurl }}/assets/slides/deeprob_lecture_10_training_neural_networks.pdf){: #lec-10 .label .label-purple target="_blank" rel="noopener noreferrer"} [**Training Neural Networks II**]({{ site.baseurl }}/assets/slides/deeprob_lecture_10_training_neural_networks.pdf){: target="_blank" rel="noopener noreferrer"}
+  : [![]({{ site.baseurl }}/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://leccap.engin.umich.edu/leccap/player/r/iQwcUy){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
   : [📖 cs231n Training II](https://cs231n.github.io/neural-networks-3/){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
