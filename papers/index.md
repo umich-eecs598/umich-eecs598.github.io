@@ -24,7 +24,6 @@ A collection of deep learning research papers with coverage in perception and as
 
 # RGB-D Architectures 
 
-[Scheduled Week 8, Lec 14]({{ site.baseurl }}/calendar/#lec-14)
 
 ### Core List
 {: .no_toc }
@@ -58,7 +57,6 @@ A collection of deep learning research papers with coverage in perception and as
 
 # Point Cloud Processing
 
-[Scheduled Week 8, Lec 15]({{ site.baseurl }}/calendar/#lec-15)
 
 ### Core List
 {: .no_toc }
@@ -89,7 +87,6 @@ A collection of deep learning research papers with coverage in perception and as
 
 # Object Pose, Geometry, SDF, Implicit surfaces
 
-[Scheduled Week 9, Lec 16]({{ site.baseurl }}/calendar/#lec-16)
 
 ### Core List
 {: .no_toc }
@@ -117,7 +114,6 @@ A collection of deep learning research papers with coverage in perception and as
 
 # Dense Descriptors, Category-level Representations 
 
-[Scheduled Week 9, Lec 17]({{ site.baseurl }}/calendar/#lec-17)
 
 ### Core List
 {: .no_toc }
@@ -143,7 +139,6 @@ A collection of deep learning research papers with coverage in perception and as
 
 # Recurrent Networks and Object Tracking 
 
-[Scheduled Week 10, Lec 18]({{ site.baseurl }}/calendar/#lec-18)
 
 ### Core List
 {: .no_toc }
@@ -168,9 +163,8 @@ A collection of deep learning research papers with coverage in perception and as
 
 - [RNNPose: Recurrent 6-DoF Object Pose Refinement with Robust Correspondence Field Estimation and Pose Optimization](https://arxiv.org/abs/2203.12870v3){: target="_blank" rel="noopener noreferrer"}, Xu et al., 2022
 
-# Visual Odometry and Localization 
 
-[Scheduled Week 10, Lec 19]({{ site.baseurl }}/calendar/#lec-19)
+# Visual Odometry and Localization 
 
 ### Core List
 {: .no_toc }
@@ -210,8 +204,6 @@ A collection of deep learning research papers with coverage in perception and as
 
 # Semantic Scene Graphs and Explicit Representations 
 
-[Scheduled Week 11, Lec 20]({{ site.baseurl }}/calendar/#lec-20)
-
 ### Core List
 {: .no_toc }
 
@@ -241,8 +233,6 @@ A collection of deep learning research papers with coverage in perception and as
 
 
 # Neural Radiance Fields and Implicit Representations 
-
-[Scheduled Week 11, Lec 21]({{ site.baseurl }}/calendar/#lec-21)
 
 ### Core List
 {: .no_toc }
@@ -287,8 +277,6 @@ A collection of deep learning research papers with coverage in perception and as
 
 
 # Datasets 
-
-[Scheduled Week 12, Lec 22]({{ site.baseurl }}/calendar/#lec-22)
 
 ### Core List
 {: .no_toc }
@@ -364,8 +352,6 @@ A collection of deep learning research papers with coverage in perception and as
 
 # Self-Supervised Learning 
 
-[Scheduled Week 12, Lec 23]({{ site.baseurl }}/calendar/#lec-23)
-
 ### Core List
 {: .no_toc }
 
@@ -388,8 +374,6 @@ A collection of deep learning research papers with coverage in perception and as
 
 
 # Grasp Pose Detection 
-
-[Scheduled Week 13, Lec 24]({{ site.baseurl }}/calendar/#lec-24)
 
 ### Core List
 {: .no_toc }
@@ -420,8 +404,6 @@ A collection of deep learning research papers with coverage in perception and as
 
 
 # Tactile Perception for Grasping and Manipulation 
-
-[Scheduled Week 13, Lec 25]({{ site.baseurl }}/calendar/#lec-25)
 
 ### Core List
 {: .no_toc }
@@ -460,8 +442,6 @@ A collection of deep learning research papers with coverage in perception and as
 
 
 # Pre-training for Robot Manipulation 
-
-[Scheduled Week 14, Lec 26]({{ site.baseurl }}/calendar/#lec-26)
 
 ### Core List
 {: .no_toc }
@@ -529,8 +509,6 @@ A collection of deep learning research papers with coverage in perception and as
 
 
 # More Frontiers 
-
-[Scheduled Week 14, Lec 27]({{ site.baseurl }}/calendar/#lec-27)
 
 ### Interpreting Deep Learning Models
 
