@@ -20,7 +20,7 @@ Feb 25
 
 Feb 26
 : **Lec 14**{: #lec-14 .label .label-purple target="_blank" rel="noopener noreferrer" } **Final Project Topics**
-: **Project 3 due**{: .label .label-red } 
+
 
 
 

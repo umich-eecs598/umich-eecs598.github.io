@@ -12,3 +12,5 @@ Mar 4
 Mar 5
 : **Break**{: .label .bg-grey-dk-000 }
 
+Mar 9
+: [**Project 3 due**]({{ site.baseurl }}/projects/project3/){: .label .label-red } 
