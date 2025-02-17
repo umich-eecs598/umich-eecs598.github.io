@@ -4,7 +4,7 @@ title: Week 7
 
 
 Feb 17
-: **Lec 11**{: #lec-11 .label .label-purple target="_blank" rel="noopener noreferrer" } **Object Detection**
+: [**Lec 11**]({{ site.baseurl }}/assets/slides/deeprob_lecture_11_object_detection.pdf){: #lec-11 .label .label-purple target="_blank" rel="noopener noreferrer" } [**Object Detection**]({{ site.baseurl }}/assets/slides/deeprob_lecture_11_object_detection.pdf){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
   : [📖 Girshick et al., R-CNN](https://arxiv.org/abs/1311.2524){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
