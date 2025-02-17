@@ -51,7 +51,7 @@ Given a proposed approach, the presenter should lay out a course of action to ac
 ## Expected Presentation Format
 {: #presentation-format }
 
-**Student teams in DeepRob should prepare a 10-minute slide-based oral presentation for their assigned paper as part of the final project.** The presentation should include the following structure: motivation relating to robotics and deep learning, background on the problem being addressed, the value proposition, approach and methods, and project timeline. **Students are expected to use the provided [DeepRob Keynote Theme]({{ site.baseurl }}/assets/slides/templates/DeepRob_Paper_Presentation.key) or the provided [DeepRob PowerPoint Template]({{ site.baseurl }}/assets/slides/templates/DeepRob_Paper_Presentation.pptx) for styling your slides.**
+**Student teams in DeepRob should prepare a 5-minute slide-based oral presentation for their assigned paper as part of the final project.** The presentation should include the following structure: motivation relating to robotics and deep learning, background on the problem being addressed, the value proposition, approach and methods, and project timeline. **Students are expected to use the provided [DeepRob Keynote Theme]({{ site.baseurl }}/assets/slides/templates/DeepRob_Paper_Presentation.key) or the provided [DeepRob PowerPoint Template]({{ site.baseurl }}/assets/slides/templates/DeepRob_Paper_Presentation.pptx) for styling your slides.**
 
 
 ## Presentation Deadline
