@@ -4,7 +4,7 @@ title: Week 7
 
 
 Feb 17
-: [**Lec 11**]({{ site.baseurl }}/assets/slides/deeprob_lecture_11_object_detection.pdf){: #lec-11 .label .label-purple target="_blank" rel="noopener noreferrer" } [**Object Detection**]({{ site.baseurl }}/assets/slides/deeprob_lecture_11_object_detection.pdf){: target="_blank" rel="noopener noreferrer"}
+: [**Lec 11**]({{ site.baseurl }}/assets/slides/deeprob_lecture_11_object_detection.pdf){: #lec-11 .label .label-purple target="_blank" rel="noopener noreferrer" } [**Object Detection I**]({{ site.baseurl }}/assets/slides/deeprob_lecture_11_object_detection.pdf){: target="_blank" rel="noopener noreferrer"}
   : [![]({{ site.baseurl }}/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://leccap.engin.umich.edu/leccap/player/r/jNvaio){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
   : [📖 Girshick et al., R-CNN](https://arxiv.org/abs/1311.2524){: target="_blank" rel="noopener noreferrer"}
@@ -15,8 +15,10 @@ Feb 17
 
 
 
+
 Feb 18
-: **Dis 5**{: #dis-5 .label .label-blue target="_blank" rel="noopener noreferrer" } **Training Neural Networks II**
+: **Dis 5**{: #dis-5 .label .label-blue target="_blank" rel="noopener noreferrer" } **P3 & SAM2**
+  : [![]({{ site.baseurl }}/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://leccap.engin.umich.edu/leccap/player/r/2yZAs5){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
   : [📖 cs231n Training II](https://cs231n.github.io/neural-networks-3/){: target="_blank" rel="noopener noreferrer"}
 
@@ -24,7 +26,7 @@ Feb 18
 
 
 Feb 19
-: **Lec 12**{: #lec-12 .label .label-purple target="_blank" rel="noopener noreferrer" } **Deep Learning Software**
+: [**Lec 12**]({{ site.baseurl }}/assets/slides/deeprob_lecture_12_object_detection.pdf){: #lec-12 .label .label-purple target="_blank" rel="noopener noreferrer" } [**Object Detection II**]({{ site.baseurl }}/assets/slides/deeprob_lecture_12_object_detection.pdf){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
   : [📖 Redmon, Darknet](https://pjreddie.com/darknet/){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
