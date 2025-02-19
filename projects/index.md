@@ -30,15 +30,17 @@ Classification using K-Nearest Neighbors and Linear Models
 
 ## [Project 2]({{ site.baseurl }}/projects/project2/)
 
+Classification using Fully Connected Neural Networks
+
+## [Project 3]({{ site.baseurl }}/projects/project3/)
+
 Classification and Detection using Convolutional Neural Networks
 
-## Project 3
-
-Segmentation and Pose Estimation with Deep Learning
+<!-- Segmentation and Pose Estimation with Deep Learning -->
 
 ## Project 4
 
-Transformers
+Vision Transformers and Self-Supervised Learning
 
 ## Final Project
 
