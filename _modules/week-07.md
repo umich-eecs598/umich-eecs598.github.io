@@ -27,6 +27,7 @@ Feb 18
 
 Feb 19
 : [**Lec 12**]({{ site.baseurl }}/assets/slides/deeprob_lecture_12_object_detection.pdf){: #lec-12 .label .label-purple target="_blank" rel="noopener noreferrer" } [**Object Detection II**]({{ site.baseurl }}/assets/slides/deeprob_lecture_12_object_detection.pdf){: target="_blank" rel="noopener noreferrer"}
+  : [![]({{ site.baseurl }}/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://leccap.engin.umich.edu/leccap/player/r/Ztup0G){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
   : [📖 Redmon, Darknet](https://pjreddie.com/darknet/){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
