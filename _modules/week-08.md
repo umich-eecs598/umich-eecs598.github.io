@@ -5,7 +5,7 @@ title: Week 8
 
 
 Feb 24
-: **Lec 13**{: #lec-13 .label .label-purple target="_blank" rel="noopener noreferrer" } **Pose Estimation**
+: [**Lec 13**]({{ site.baseurl }}/assets/slides/deeprob_lecture_13_pose_estimation.pdf){: #lec-13 .label .label-purple target="_blank" rel="noopener noreferrer" } [**Pose Estimation**]({{ site.baseurl }}/assets/slides/deeprob_lecture_13_pose_estimation.pdf){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
   : [📖 Xiang et al., PoseCNN](https://arxiv.org/abs/1711.00199){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
