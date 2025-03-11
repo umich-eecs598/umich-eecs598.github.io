@@ -8,6 +8,7 @@ title: Week 9
 Mar 10
 : [**Lec 15**]({{ site.baseurl }}/assets/slides/deeprob_lecture_15_deep_learning_software.pdf){: #lec-15 .label .label-purple target="_blank" rel="noopener noreferrer" } [**Deep Learning Software**]({{ site.baseurl }}/assets/slides/deeprob_lecture_15_deep_learning_software.pdf){: target="_blank" rel="noopener noreferrer"}
   : [![]({{ site.baseurl }}/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://leccap.engin.umich.edu/leccap/player/r/pKXsWc){: target="_blank" rel="noopener noreferrer"}
+: &nbsp;
   : [📖 Xiang, PoseCNN](https://arxiv.org/pdf/1711.00199.pdf){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
   : [📖 Wang, DenseFusion](https://arxiv.org/pdf/1901.04780.pdf){: target="_blank" rel="noopener noreferrer"}
