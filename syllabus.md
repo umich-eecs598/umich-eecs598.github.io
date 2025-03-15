@@ -114,7 +114,7 @@ Course grades will be determined according to the following criteria:
  - [Project 1]({{ site.baseurl }}/projects/project1/):     11%
  - [Project 2]({{ site.baseurl }}/projects/project2/):     12%
  - [Project 3]({{ site.baseurl }}/projects/project3/):     12%
- - [Project 4]({{ site.baseurl }}/projects/):     12%
+ - [Project 4]({{ site.baseurl }}/projects/project4/):     12%
  - Midterm Exam: 10%
  - [Final Project (group)]({{ site.baseurl }}/projects/): 23%
  - In-class Activities: 10%

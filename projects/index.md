@@ -38,9 +38,9 @@ Classification and Detection using Convolutional Neural Networks
 
 <!-- Segmentation and Pose Estimation with Deep Learning -->
 
-## Project 4
+## [Project 4]({{ site.baseurl }}/projects/project4/)
 
-Vision Transformers and Self-Supervised Learning
+Segmentation, Pose Estimation, and Vision Transformers
 
 ## Final Project
 
