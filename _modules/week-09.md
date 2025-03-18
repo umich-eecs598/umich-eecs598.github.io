@@ -14,12 +14,18 @@ Mar 10
   : [📖 Wang, DenseFusion](https://arxiv.org/pdf/1901.04780.pdf){: target="_blank" rel="noopener noreferrer"}
 
 
+
+
 Mar 11
 : [**Dis 7**]({{ site.baseurl }}/assets/slides/deeprob_discussion_07.pdf){: #dis-7 .label .label-blue target="_blank" rel="noopener noreferrer" } [**Midterm Review**]({{ site.baseurl }}/assets/slides/deeprob_discussion_07.pdf){: target="_blank" rel="noopener noreferrer"}
+  : [![]({{ site.baseurl }}/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://leccap.engin.umich.edu/leccap/player/r/vJypEU){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
 
 
 Mar 12
 : **Lec 16**{: #lec-16 .label .label-purple target="_blank" rel="noopener noreferrer" } **Midterm**
-: **Project 4 out**{: .label .label-yellow }
 
+
+Mar 16
+: [**Project 4 out**]({{ site.baseurl }}/projects/project4/){: .label .label-yellow }
+: &nbsp;
