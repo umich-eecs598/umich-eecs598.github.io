@@ -21,8 +21,10 @@ Mar 18
 : &nbsp;
 
 
+
 Mar 19
-: **Lec 18**{: #lec-18 .label .label-purple target="_blank" rel="noopener noreferrer" } **Vision Transformers**
+: [**Lec 18**]({{ site.baseurl }}/assets/slides/deeprob_lecture_17_attention.pdf){: #lec-18 .label .label-purple target="_blank" rel="noopener noreferrer" } [**Attention, Transformer**]({{ site.baseurl }}/assets/slides/deeprob_lecture_17_attention.pdf){: target="_blank" rel="noopener noreferrer"}
+  : [![]({{ site.baseurl }}/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://leccap.engin.umich.edu/leccap/player/r/qQeP8k){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
   : [📖 Dosovitskiy, ViT](https://arxiv.org/pdf/2010.11929.pdf){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;

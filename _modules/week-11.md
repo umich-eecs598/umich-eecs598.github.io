@@ -2,8 +2,10 @@
 title: Week 11
 ---
 
+
 Mar 24
-: **Lec 19**{: #lec-19 .label .label-purple target="_blank" rel="noopener noreferrer" } **Vision-Language Models**
+: [**Lec 19**]({{ site.baseurl }}/assets/slides/deeprob_lecture_18_vision_transformers.pdf){: #lec-19 .label .label-purple target="_blank" rel="noopener noreferrer" } [**Vision Transformers**]({{ site.baseurl }}/assets/slides/deeprob_lecture_18_vision_transformers.pdf){: target="_blank" rel="noopener noreferrer"}
+  : [![]({{ site.baseurl }}/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://leccap.engin.umich.edu/leccap/player/r/Cxy7e5){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
   : [📖 Devlin, BERT](https://arxiv.org/pdf/1810.04805.pdf){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
@@ -18,7 +20,7 @@ Mar 25
 
 
 Mar 26
-: **Lec 20**{: #lec-20 .label .label-purple target="_blank" rel="noopener noreferrer" } **Transformer Applications**
+: [**Lec 20**]({{ site.baseurl }}/assets/slides/deeprob_lecture_19_transformers.pdf){: #lec-20 .label .label-purple target="_blank" rel="noopener noreferrer" } [**More Transformers**]({{ site.baseurl }}/assets/slides/deeprob_lecture_19_transformers.pdf){: target="_blank" rel="noopener noreferrer"}
 
 
 
