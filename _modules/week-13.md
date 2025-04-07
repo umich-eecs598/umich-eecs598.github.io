@@ -3,7 +3,7 @@ title: Week 13
 ---
 
 Apr 7
-: **Lec 23**{: #lec-23 .label .label-purple } **NeRF & Gaussian Splatting**
+: **Lec 23**{: #lec-23 .label .label-purple } **Language Models**
 : &nbsp;
 
 
@@ -13,7 +13,7 @@ Apr 8
 
 
 Apr 9
-: **Lec 24**{: #lec-24 .label .label-purple target="_blank" rel="noopener noreferrer" } **Deep Reinforcement Learning**
+: **Lec 24**{: #lec-24 .label .label-purple target="_blank" rel="noopener noreferrer" } **Multi-Sensor Fusion**
 : &nbsp;
 
 
