@@ -2,9 +2,13 @@
 title: Week 12
 ---
 
+
+
 Mar 31
 : [**Lec 21**]({{ site.baseurl }}/assets/slides/deeprob_lecture_20_3d_vision.pdf){: #lec-21 .label .label-purple target="_blank" rel="noopener noreferrer" } [**3D Vision**]({{ site.baseurl }}/assets/slides/deeprob_lecture_20_3d_vision.pdf){: target="_blank" rel="noopener noreferrer"}
+  : [![]({{ site.baseurl }}/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://leccap.engin.umich.edu/leccap/player/r/RAbxWo){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
+  : [📖 Qi et al., PointNet](https://arxiv.org/abs/1612.00593){: target="_blank" rel="noopener noreferrer"}
 
 
 Apr 1
@@ -15,5 +19,8 @@ Apr 1
 Apr 2
 : [**Lec 22**]({{ site.baseurl }}/assets/slides/deeprob_lecture_21_nerf_3dgs.pdf){: #lec-22 .label .label-purple target="_blank" rel="noopener noreferrer" } [**NeRF & 3D Gaussian Splatting**]({{ site.baseurl }}/assets/slides/deeprob_lecture_21_nerf_3dgs.pdf){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
+  : [📖 Mildenhall et al., NeRF](https://arxiv.org/abs/2003.08934){: target="_blank" rel="noopener noreferrer"}
+: &nbsp;
+  : [📖 Kerbl et al., 3DGS](https://arxiv.org/abs/2308.04079){: target="_blank" rel="noopener noreferrer"}
 
 

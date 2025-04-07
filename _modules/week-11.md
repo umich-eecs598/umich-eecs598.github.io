@@ -19,9 +19,11 @@ Mar 25
 : &nbsp;
 
 
+
 Mar 26
 : [**Lec 20**]({{ site.baseurl }}/assets/slides/deeprob_lecture_19_transformers.pdf){: #lec-20 .label .label-purple target="_blank" rel="noopener noreferrer" } [**More Transformers**]({{ site.baseurl }}/assets/slides/deeprob_lecture_19_transformers.pdf){: target="_blank" rel="noopener noreferrer"}
-
+  : [![]({{ site.baseurl }}/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://leccap.engin.umich.edu/leccap/player/r/n5EkNf){: target="_blank" rel="noopener noreferrer"}
+: &nbsp;
 
 
 Mar 30
