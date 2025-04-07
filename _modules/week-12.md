@@ -16,8 +16,10 @@ Apr 1
 : &nbsp;
 
 
+
 Apr 2
 : [**Lec 22**]({{ site.baseurl }}/assets/slides/deeprob_lecture_21_nerf_3dgs.pdf){: #lec-22 .label .label-purple target="_blank" rel="noopener noreferrer" } [**NeRF & 3D Gaussian Splatting**]({{ site.baseurl }}/assets/slides/deeprob_lecture_21_nerf_3dgs.pdf){: target="_blank" rel="noopener noreferrer"}
+  : [![]({{ site.baseurl }}/assets/logos/yt_icon_rgb.png){: .module-logo } **Recording**](https://leccap.engin.umich.edu/leccap/player/r/if0odM){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
   : [📖 Mildenhall et al., NeRF](https://arxiv.org/abs/2003.08934){: target="_blank" rel="noopener noreferrer"}
 : &nbsp;
