@@ -33,7 +33,7 @@ authors:
 {: .note-title }
 > tl;dr
 >
-> You will describe the content on your page as a [markdown](https://en.wikipedia.org/wiki/Markdown){: target="_blank" rel="noopener noreferrer"} file (e.g. [this page is itself a markdown file](https://raw.githubusercontent.com/opipari/DeepRobWeb/w24/reports/how-to.md){: target="_blank" rel="noopener noreferrer"}). The markdown file gets converted by an application, called [Jekyll](https://en.wikipedia.org/wiki/Jekyll_(software){: target="_blank" rel="noopener noreferrer"}), into a static [HTML](https://en.wikipedia.org/wiki/HTML){: target="_blank" rel="noopener noreferrer"} file and is served on the internet at a specific domain (e.g. 'deeprob.com') and subdirectory (e.g. '/w24/reports/how-to/').
+> You will describe the content on your page as a [markdown](https://en.wikipedia.org/wiki/Markdown){: target="_blank" rel="noopener noreferrer"} file (e.g. [this page is itself a markdown file](https://raw.githubusercontent.com/opipari/DeepRobWeb/w25/reports/how-to.md){: target="_blank" rel="noopener noreferrer"}). The markdown file gets converted by an application, called [Jekyll](https://en.wikipedia.org/wiki/Jekyll_(software){: target="_blank" rel="noopener noreferrer"}), into a static [HTML](https://en.wikipedia.org/wiki/HTML){: target="_blank" rel="noopener noreferrer"} file and is served on the internet at a specific domain (e.g. 'deeprob.com') and subdirectory (e.g. '/w25/reports/how-to/').
 
 
 
@@ -61,7 +61,7 @@ Before we can develop a new webpage and style it with our final project content,
 3. Clone the DeepRob source code
 
     ```sh
-    git clone -b w24 git@github.com:opipari/DeepRobWeb.git
+    git clone -b w25 git@github.com:opipari/DeepRobWeb.git
     ```
 
 
@@ -75,12 +75,12 @@ As part of the Ruby installation, another tool called '[Bundler](https://bundler
 
 Now that we have installed our software requirements and cloned the website source code, let's convert that source code into a working static site that we can add onto. 
 
-Our goal here is to end up with an exact replica of [deeprob.org/w24/](https://deeprob.org/w24/){: target="_blank" rel="noopener noreferrer"} but which is entirely contained and served by your local development machine. Once this is working we can add a new page and modify it locally before pushing those changes into the official [DeepRob repository](https://github.com/opipari/DeepRobWeb){: target="_blank" rel="noopener noreferrer"} as a pull request. 
+Our goal here is to end up with an exact replica of [deeprob.org/w25/](https://deeprob.org/w25/){: target="_blank" rel="noopener noreferrer"} but which is entirely contained and served by your local development machine. Once this is working we can add a new page and modify it locally before pushing those changes into the official [DeepRob repository](https://github.com/opipari/DeepRobWeb){: target="_blank" rel="noopener noreferrer"} as a pull request. 
 
 **Here are the steps to build our local site:**
 
 1. Open a terminal window
-2. Navigate to the root directory of the cloned w24 repository
+2. Navigate to the root directory of the cloned w25 repository
 
     ```sh
     cd DeepRobWeb
@@ -104,26 +104,26 @@ After running the above commands, you should see terminal output similar to what
 ```sh
 Configuration file: /path.../DeepRobWeb/_config.yml
             Source: /path.../DeepRobWeb
-       Destination: _site/w24/
+       Destination: _site/w25/
  Incremental build: disabled. Enable with --incremental
       Generating... 
       Remote Theme: Using theme just-the-docs/just-the-docs
                     done in 15.273 seconds.
  Auto-regeneration: enabled for '/path.../DeepRobWeb'
-    Server address: http://127.0.0.1:4000/w24/
+    Server address: http://127.0.0.1:4000/w25/
   Server running... press ctrl-c to stop.
 ```
 This message indicates a few noteworthy things:
-1. The build worked without any errors and stored the resulting static site files in the `_site/w24/` directory
+1. The build worked without any errors and stored the resulting static site files in the `_site/w25/` directory
 2. The build process took 15.273 seconds (it will be slightly faster on future builds)
 3. The build is using `Auto-regeneration`, which just means that as long as this process keeps running, any changes to the source code in the `DeepRobWeb/` folder will automatically trigger the build process and update the served files
-4. The server is running and hosting our static site at the location: [http://127.0.0.1:4000/w24/](http://127.0.0.1:4000/w24/){: target="_blank" rel="noopener noreferrer"}
+4. The server is running and hosting our static site at the location: [http://127.0.0.1:4000/w25/](http://127.0.0.1:4000/w25/){: target="_blank" rel="noopener noreferrer"}
 5. We can stop the server by pressing `ctrl-c` or by closing the terminal window
 
 {: .highlight }
 **Note: This server is accessible only on your local development machine.** In other words, it is not publishing anything to the public internet. This is useful because it allows you to develop locally before publishing the final page to the public internet.
 
-Now that the server is running, try navigating to the local site by going to the address: [http://127.0.0.1:4000/w24/](http://127.0.0.1:4000/w24/){: target="_blank" rel="noopener noreferrer"} in your browser. **If this doesn't work, or the website doesn't match the one published at [https://deeprob.org/w24/](https://deeprob.org/w24/){: target="_blank" rel="noopener noreferrer"}, please let [Anthony](mailto:topipari@umich.edu) know.**
+Now that the server is running, try navigating to the local site by going to the address: [http://127.0.0.1:4000/w25/](http://127.0.0.1:4000/w25/){: target="_blank" rel="noopener noreferrer"} in your browser. **If this doesn't work, or the website doesn't match the one published at [https://deeprob.org/w25/](https://deeprob.org/w25/){: target="_blank" rel="noopener noreferrer"}, please let [Anthony](mailto:topipari@umich.edu) know.**
 
 
 ---
@@ -131,10 +131,10 @@ Now that the server is running, try navigating to the local site by going to the
 
 ## Inspecting an Example Project Page
 
-Now that we have a local copy of the website, let's take a look at an example page for inspiration and direction on how we can design and structure our bew webpage. Specifically, looking into the [`reports/`](https://github.com/opipari/DeepRobWeb/tree/w24/reports){: target="_blank" rel="noopener noreferrer"} directory, we can see the source code used to generate this webpage as well as a simple example project page located at [`reports/example.md`](https://github.com/opipari/DeepRobWeb/blob/w24/reports/example.md){: target="_blank" rel="noopener noreferrer"}.
+Now that we have a local copy of the website, let's take a look at an example page for inspiration and direction on how we can design and structure our bew webpage. Specifically, looking into the [`reports/`](https://github.com/opipari/DeepRobWeb/tree/w25/reports){: target="_blank" rel="noopener noreferrer"} directory, we can see the source code used to generate this webpage as well as a simple example project page located at [`reports/example.md`](https://github.com/opipari/DeepRobWeb/blob/w25/reports/example.md){: target="_blank" rel="noopener noreferrer"}.
 
 
-To get a better sense of how this example page works, let's open the local page side-by-side with its source code. The page can be opened at: [http://127.0.0.1:4000/w24/reports/example/](http://127.0.0.1:4000/w24/reports/example/){: target="_blank" rel="noopener noreferrer"}. The local page's source code, `reports/example.md`, can be opened with your favorite text editor. If all goes as planned, you should see a development environment similar to what's shown below:
+To get a better sense of how this example page works, let's open the local page side-by-side with its source code. The page can be opened at: [http://127.0.0.1:4000/w25/reports/example/](http://127.0.0.1:4000/w25/reports/example/){: target="_blank" rel="noopener noreferrer"}. The local page's source code, `reports/example.md`, can be opened with your favorite text editor. If all goes as planned, you should see a development environment similar to what's shown below:
 
 ![Development environment for example webpage]({{ site.baseurl }}/assets/projects/reports/how-to/development_environment.webp)
 
@@ -183,9 +183,9 @@ parent: Reports
 <details markdown="block">
 <summary>Click here for more details, if you're curious!</summary>>
 
-The `layout` key is a generic front matter key specifying which HTML *scaffold* (or *layout*) to use when converting the markdown content *into* HTML. I've predefined an HTML structure for these project pages, which is defined by the `project` name. For those extra curious, you can inspect the `project` HTML layout definition in [`_layouts/project.html`](https://github.com/opipari/DeepRobWeb/blob/w24/_layouts/project.html){: target="_blank" rel="noopener noreferrer"}.
+The `layout` key is a generic front matter key specifying which HTML *scaffold* (or *layout*) to use when converting the markdown content *into* HTML. I've predefined an HTML structure for these project pages, which is defined by the `project` name. For those extra curious, you can inspect the `project` HTML layout definition in [`_layouts/project.html`](https://github.com/opipari/DeepRobWeb/blob/w25/_layouts/project.html){: target="_blank" rel="noopener noreferrer"}.
 
-The `parent` key is used by our DeepRob theme, which is based on the [Just the Docs](https://just-the-docs.com/){: target="_blank" rel="noopener noreferrer"} theme, as a bookkeeping flag to ensure Jekyll doesn't clutter the navigation bar on the left of every page. Specifically, by using this key and assigning it a value of `Reports` we are telling Jekyll that the example project page shouldn't be shown on the navigation bar and that it belongs as a child page of the reports index at [`/w24/reports/`](https://github.com/opipari/DeepRobWeb/blob/w24/reports/index.md){: target="_blank" rel="noopener noreferrer"}.
+The `parent` key is used by our DeepRob theme, which is based on the [Just the Docs](https://just-the-docs.com/){: target="_blank" rel="noopener noreferrer"} theme, as a bookkeeping flag to ensure Jekyll doesn't clutter the navigation bar on the left of every page. Specifically, by using this key and assigning it a value of `Reports` we are telling Jekyll that the example project page shouldn't be shown on the navigation bar and that it belongs as a child page of the reports index at [`/w25/reports/`](https://github.com/opipari/DeepRobWeb/blob/w25/reports/index.md){: target="_blank" rel="noopener noreferrer"}.
 
 
 </details>
@@ -228,7 +228,7 @@ Our provided project layout will format this list of authors into an equally-spa
 
 ### Project Images
 
-Including a captivating image after the author list is a good strategy to summarize your project with a captivating visual element. The following code is used for placing the `deeprob.gif` file located in the `/w24/assets/projects/reports/example/` subdirectory within the example project page:
+Including a captivating image after the author list is a good strategy to summarize your project with a captivating visual element. The following code is used for placing the `deeprob.gif` file located in the `/w25/assets/projects/reports/example/` subdirectory within the example project page:
 
 ```html
 <!-- This shows how to add an image (or gif) in markdown -->
@@ -341,7 +341,7 @@ Now that you've made a webpage, let's make a pull request to the DeepRobWeb repo
 4. Now sync your project with `origin` (i.e. the remote [DeepRobWeb](https://github.com/opipari/DeepRobWeb){: target="_blank" rel="noopener noreferrer"} repository)
 
     ```sh
-    git pull origin w24
+    git pull origin w25
     ```
 
 5. Now add any asset files and commit your changes
@@ -353,7 +353,7 @@ Now that you've made a webpage, let's make a pull request to the DeepRobWeb repo
 6. We're now ready to push your changes into your forked repository
   
     ```sh
-    git push projectfork w24
+    git push projectfork w25
     ```
 
 7. In the GitHub GUI look for and click the 'Compare & Pull request' button
