@@ -22,7 +22,7 @@ authors:
 ---
 
 <div class="center-image">
-<img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/leaf/studentTeacher.jpg" />
+<img style="width:75%;" alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/leaf/studentTeacher.jpg" />
 </div>
 
 <div class="project-links" markdown="1">
