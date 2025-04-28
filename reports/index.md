@@ -21,3 +21,6 @@ David Smith, Jess Wu, and William Hasey
 
 ### [(Eye) BAGS: Bundle-Adjusting Gaussian Splatting]({{ site.baseurl }}/reports/BAGS/)
 Ruben Fonseca, and Sacchin Sundar
+
+### [Improving the Robustness of Object Detection Under Hazardous Conditions]({{ site.baseurl }}/reports/deweathered/)
+Rui Li, Yuqing Luo, Inbum Park, and Ziyang Xuan
