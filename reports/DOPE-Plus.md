@@ -5,6 +5,7 @@ title: "DOPE-Plus: Enhancements in Feature Extraction and Data Generation for 6D
 description: Group 6 final project report for DeepRob at the University of Michigan.
 authors:
   - name: Jeffrey Chen
+    social: "https://www.linkedin.com/in/zeyu-jeffrey-chen/"
     affiliation: University of Michigan
   - name: Yuqiao Luo
     affiliation: University of Michigan

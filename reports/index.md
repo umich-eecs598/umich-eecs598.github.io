@@ -12,6 +12,8 @@ has_toc: false
 {:.no_toc}
 
 
+### [Our Project Report]({{ site.baseurl }}/reports/DOPE-Plus/)
+
 ### [Example Reports from Winter 2024](https://deeprob.org/w24/reports/)
 
 ### [Example Project: A final project template for DeepRob]({{ site.baseurl }}/reports/example/)
