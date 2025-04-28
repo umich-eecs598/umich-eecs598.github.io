@@ -12,10 +12,6 @@ has_toc: false
 {:.no_toc}
 
 
-### [Example Reports from Winter 2024](https://deeprob.org/w24/reports/)
+### [DiseasedCNN-Lite: Leveraging Transfer Learning and Knowledge Distallation for Leaf Disease Classification]({{ site.baseurl }}/reports/leaf/)
+David Smith, Jess Wu, and William Hasey
 
-### [Example Project: A final project template for DeepRob]({{ site.baseurl }}/reports/example/)
-Anthony Opipari, Xiaoxiao Du, Edmond Tong, Yifu Lu, Dalton Richardson, and Odest Chadwicke Jenkins
-
-### [How-To: Make a project website for DeepRob]({{ site.baseurl }}/reports/how-to/)
-Anthony Opipari
