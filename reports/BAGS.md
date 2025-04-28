@@ -14,12 +14,11 @@ authors:
 
 <!-- This shows how to add an image (or gif) in markdown -->
 <div class="center-image">
-<img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/BAGS/BAGS_compare.png" />
+<img style="width:50%;" alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/BAGS/BAGS_compare.webp" />
 </div>
 
 
 <div class="project-links" markdown="1">
-[![]({{ site.baseurl }}/assets/logos/acrobat.svg){: .text-logo } Report](#){: .btn .btn-grey .mr-6 }
 [![]({{ site.baseurl }}/assets/logos/github-mark.svg){: .text-logo } Code](https://github.com/sacchinbhg/Gsplat-Object-Reconstruction){: .btn .btn-grey target="_blank" rel="noopener noreferrer" }
 </div>
 
@@ -57,23 +56,37 @@ To combat this, we opted to schedule pose optimization to occur later in the tra
 
 Once the model and experimental setup were ready, the vanilla Gaussian Object model was trained on the ``kitchen'' sub-dataset from MipNeRF360. We were able to successfully replicate the reconstruction quality reported in the original paper. We then evaluated our extended method, BAGS (Bundle-Adjusting Gaussian Splatting), under the same conditions but with noisy initial camera poses and delayed pose optimization as shown in the below figure.
 
-![DeepRob Logo]({{ site.baseurl }}/assets/projects/reports/BAGS/BAGS_output.png)
+<div class="center-image">
+<img style="width:40%;" alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/BAGS/BAGS_output.webp" />
+</div>
+
 
 We evaluate both models on standard perceptual and fidelity metrics: LPIPS (↓ lower is better), PSNR (↑ higher is better), and SSIM (↑ higher is better), across different view counts (4, 6, and 9 views). The following table summarizes the performance:
 
-![DeepRob Logo]({{ site.baseurl }}/assets/projects/reports/BAGS/table_sc.png)
+<div class="center-image">
+<img style="width:60%;" alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/BAGS/table_sc.webp" />
+</div>
+
 
 As expected, our method performs slightly below the baseline when using perfect COLMAP poses, especially for low view counts. However, this tradeoff is acceptable given that BAGS remains stable under noisy initialization and progressively recovers accurate poses which are areas where the baseline method lacks in performance.
 
-![DeepRob Logo]({{ site.baseurl }}/assets/projects/reports/BAGS/different_rotation_degree.png)
+<div class="center-image">
+<img style="width:60%;" alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/BAGS/different_rotation_degree.webp" />
+</div>
+
 
 To evaluate the robustness of BAGS to initialization noise, we conducted an ablation study by injecting increasing levels of synthetic pose perturbation into the input COLMAP poses. As shown in the above figure, we observe that while the baseline Gaussian Object model performs comparably to BAGS under low noise (5°–10°), its reconstruction quality deteriorates significantly beyond 15°, effectively failing at 20° due to its reliance on fixed poses. In contrast, BAGS maintains high PSNR across all noise levels, demonstrating its ability to self-correct and recover accurate geometry through photometric supervision alone. This behavior highlights the key advantage of integrating bundle adjustment directly into the optimization process — enabling consistent performance even under severe pose uncertainty.
 
-![DeepRob Logo]({{ site.baseurl }}/assets/projects/reports/BAGS/Loss_BAGS.png)
+<div class="center-image">
+<img style="width:65%;" alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/BAGS/Loss_BAGS.webp" />
+</div>
+
 
 The above figure shows the total loss over 10,000 iterations of training. Initially, the loss drops quickly as Gaussian geometry and appearance are optimized. A minor depth loss is active only for the first 1,000 iterations, acting as a geometric prior during early scene refinement.
 
-![DeepRob Logo]({{ site.baseurl }}/assets/projects/reports/BAGS/pose_errors.png)
+<div class="center-image">
+<img style="width:65%;" alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/BAGS/pose_errors.webp" />
+</div>
 
 Importantly, the above figure shows the evolution of pose error — both rotation (degrees) and translation (meters) — over time. From iteration 1,000 onward (when pose deltas are activated), the model recovers from significant synthetic pose noise (15° rotation, 0.3 m translation), converging to under 3.4° and 0.02 m error respectively. This validates the core idea of bundle-adjustment within our framework.
 
@@ -96,15 +109,6 @@ The implications of this work are broad. Robust pose-aware reconstruction has de
 In summary, our extension of Gaussian Object to support bundle-adjusting optimization enhances its practical applicability and robustness, providing a foundation for future research in self-supervised, real-time 3D perception systems.
 
 
-<!-- ## Project Video
-
-You can display a video with your model's results by either uploading to youtube, then copying your video's `<iframe>` source as shown below. Alternatively if your video files are small, we can host them directly on the DeepRob server.
-
-<div class="video-wrap">
-  <div class="video-container">
-	<iframe src="https://www.youtube.com/embed/dx1G7y6mhMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  </div>
-</div> -->
 
 
 ## Citation
