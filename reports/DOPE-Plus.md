@@ -16,19 +16,19 @@ authors:
 
 <!-- This shows how to add an image (or gif) in markdown -->
 <div class="center-image">
-<img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/ViT-DOPE_structure.png" />
+<img style="width:75%;" alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/ViT-DOPE_structure.webp" />
 </div>
 
 
 <div class="project-links" markdown="1">
-[![]({{ site.baseurl }}/assets/logos/acrobat.svg){: .text-logo } Report]({{ site.baseurl }}Project_Report.pdf){: .btn .btn-grey .mr-6 }
+[![]({{ site.baseurl }}/assets/logos/acrobat.svg){: .text-logo } Report]({{ site.baseurl }}/assets/projects/reports/DOPE-Plus/ROB599_Final_report.pdf){: .btn .btn-grey .mr-6 target="_blank" rel="noopener noreferrer" }
 [![]({{ site.baseurl }}/assets/logos/github-mark.svg){: .text-logo } Code](https://github.com/jypipi/DOPE-Plus){: .btn .btn-grey target="_blank" rel="noopener noreferrer" }
 </div>
 
 
 ## Abstract
 
-This study explored enhancements to the DOPE framework by improving both its network architecture and synthetic data generation pipeline for 6D object pose estimation. We proposed replacing the original VGG-19-based feature extractor with a Vision Transformer (ViT), aiming to leverage its superior representation capabilities. In parallel, we developed a refined data generation pipeline, resulting in an augmented HOPE dataset \cite{lin2021fusion} and a new fully synthetic dataset of a customized object, Block. These datasets were used to train and evaluate our modified DOPE model on two target objects: Cookies and Block. Experimental results demonstrate that incorporating ViT improves pose estimation performance over the original VGG-19 backbone, suggesting the potential for further advancements through the integration of more powerful feature extractors.
+This study explored enhancements to the Deep Object Pose Estimation framework [(DOPE, Tremblay et al., 2018)](https://arxiv.org/abs/1809.10790){: target="_blank" rel="noopener noreferrer"} by improving both its network architecture and synthetic data generation pipeline for 6D object pose estimation. We proposed replacing the original VGG-19-based feature extractor with a Vision Transformer (ViT), aiming to leverage its superior representation capabilities. In parallel, we developed a refined data generation pipeline, resulting in an augmented [HOPE dataset (Lin et al., 2021)](https://arxiv.org/abs/2103.13539){: target="_blank" rel="noopener noreferrer"} and a new fully synthetic dataset of a customized object, Block. These datasets were used to train and evaluate our modified DOPE model on two target objects: Cookies and Block. Experimental results demonstrate that incorporating ViT improves pose estimation performance over the original VGG-19 backbone, suggesting the potential for further advancements through the integration of more powerful feature extractors.
 
 ## Introduction and Backgrounds
 
@@ -63,15 +63,15 @@ We enhanced the original data generation pipeline using BlenderProc to produce t
 
   (1)Textured 3D CAD Modeling and Real-World Background Generation
 
-  To obtain a precise 3D textured model of the customized object, we first used SolidWorks to create an accurate geometric model with correct dimensions. Blender was then employed to add textures and enrich visual details, including colors and physical material properties, as shown in below.
+  To obtain a precise 3D textured model of the customized object, we first used SolidWorks to create an accurate geometric model with correct dimensions. Blender was then employed to add textures and enrich visual details, including colors and physical material properties, as shown below.
 
 <div class="center-image">
-<img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/block_blender.png" style="max-width: 40%;"/>
+<img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/block_blender.webp" style="max-width: 40%;"/>
 </div>
 <p align="center">3D Textured Model</p>
   For real-world HDRI background generation, we captured raw 360-degree images of the desired physical environments using the Insta360 X3 camera. These images were subsequently pre-processed and converted into HDRI backgrounds using Adobe Photoshop, as illustrated below.
   <div class="center-image">
-<img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/HDR_example.png" style="max-width: 40%;"/>
+<img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/HDR_example.webp" style="max-width: 40%;"/>
 </div>
 <p align="center">Sampled HDRI Background</p>
 
@@ -91,23 +91,23 @@ We augmented the original HOPE dataset and created a new dataset for the customi
 
   (1)HOPE Data Augmentation (HOPE-Syn&Real Dataset)
 
-  We generated additional synthetic data based on the HOPE dataset. The original dataset consists of 28 grocery items, with approximately 300 real images per object. We selected Cookies as the target object for subsequent training tasks. To enrich the existing dataset, we synthesized additional 12,000 domain-randomized (DR) images of this object using the enhanced data generation pipeline developed upon, and combined them with the existing real images to form the HOPE-Syn\&Real dataset. To verify the quality of the synthesized images, we employed a validation method adapted from the original codebase to visualize the ground truth annotations, as shown in below.
+  We generated additional synthetic data based on the HOPE dataset. The original dataset consists of 28 grocery items, with approximately 300 real images per object. We selected Cookies as the target object for subsequent training tasks. To enrich the existing dataset, we synthesized additional 12,000 domain-randomized (DR) images of this object using the enhanced data generation pipeline developed upon, and combined them with the existing real images to form the HOPE-Syn&Real dataset. To verify the quality of the synthesized images, we employed a validation method adapted from the original codebase to visualize the ground truth annotations, as shown below.
   <div style="display: flex; justify-content: center; gap: 1em;">
-  <img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/000215.png" style="max-width: 13.5%;">
-  <img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/000215-validate.png" style="max-width: 13.5%;">
-  </div> -->
+  <img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/000215.webp" style="max-width: 30%;">
+  <img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/000215-validate.webp" style="max-width: 30%;">
+  </div>
 
   <div style="display: flex; justify-content: center; gap: 1em;">
-  <img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/000210.png" style="max-width: 35%;">
-  <img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/000210-validate.png" style="max-width: 35%;">
-  </div> -->
+  <img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/000210.webp" style="max-width: 30%;">
+  <img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/000210-validate.webp" style="max-width: 30%;">
+  </div>
   <p align="center">Sampled Generated Data and Visualized Ground Truth in the HOPE-Syn&Real Dataset. (Left column: generated RGB images, Right column: visualized ground truths)</p>
 
   (2)Synthetic Block Dataset
 
   In addition to augmenting the HOPE dataset, we created a fully synthetic dataset for our customized Block object using the aforementioned methods and strategies. This dataset consists of over 19,300 domain-randomized images, with random variations in block poses, instance counts, backgrounds, and distractor objects. Furthermore, as shown below, lighting conditions and shadows were simulated and rendered to further enhance realism and dataset diversity.
   <div class="center-image">
-<img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/000031.png" style="max-width: 30%;"/>
+<img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/000031.webp" style="max-width: 30%;"/>
 </div>
 <p align="center">Synthetic Domain Randomized Image in the Synthetic Block Dataset</p>
 
@@ -122,8 +122,8 @@ In actual training, to ensure the accuracy, we use hybrid dataset(HOPE mixed wit
 
 The ground truth of HOPE and HOPE-synthetic are shown below:
 <div style="display: flex; justify-content: center; gap: 1em;">
-  <img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/example/HOPE_GroundTruth.png" style="max-width: 40%;">
-  <img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/example/HOPE-syntheic_GT.png" style="max-width: 40%;">
+  <img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/example/HOPE_GroundTruth.webp" style="max-width: 40%;">
+  <img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/example/HOPE-syntheic_GT.webp" style="max-width: 40%;">
 </div> -->
 
 
@@ -134,45 +134,33 @@ To quantify and compare model performance, we trained four models for Cookies an
 
 The statistic results of object "Cookies" are shown below:
 <div style="display: flex; justify-content: center; gap: 1em; flex-wrap: wrap;">
-  <img alt="Loss" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/Loss_cookies.png" style="max-width: 30%; height: auto;">
-  <img alt="Accuracy" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/accuracy_cookies.png" style="max-width: 30%; height: auto;">
-  <img alt="Accuracy" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/mAP_cookies.png" style="max-width: 30%; height: auto;">
+  <img alt="Loss" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/Loss_cookies.webp" style="max-width: 30%; height: auto;">
+  <img alt="Accuracy" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/accuracy_cookies.webp" style="max-width: 30%; height: auto;">
+  <img alt="Accuracy" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/mAP_cookies.webp" style="max-width: 30%; height: auto;">
 </div>
 <p align="center">Loss, Accuracy and mAP Values of "Cookies" Object Training</p>
 
 
 The statistic results of object "Block" are shown below:
 <div style="display: flex; justify-content: center; gap: 1em; flex-wrap: wrap;">
-  <img alt="Loss" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/Loss_block.png" style="max-width: 30%; height: auto;">
-  <img alt="Accuracy" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/accuracy_block.png" style="max-width: 30%; height: auto;">
-  <img alt="Accuracy" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/mAP_block.png" style="max-width: 30%; height: auto;">
+  <img alt="Loss" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/Loss_block.webp" style="max-width: 30%; height: auto;">
+  <img alt="Accuracy" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/accuracy_block.webp" style="max-width: 30%; height: auto;">
+  <img alt="Accuracy" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/mAP_block.webp" style="max-width: 30%; height: auto;">
 </div>
 <p align="center">Loss, Accuracy and mAP Values of "Block" Object Training</p>
 
 An example of model belief map prediction is shown below:
 <div class="center-image">
-<img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/000024_belief_maps.png" style="max-width: 30%; height: auto;"/>
+<img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/000024_belief_maps.webp" style="max-width: 30%; height: auto;"/>
 </div>
 <p align="center">Model Inference Example</p>
 
 An example of our model inference to predict the object's bounding box is shown below:
 <div class="center-image">
-<img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/inference_predict.png" style="max-width: 30%; height: auto;"/>
+<img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/inference_predict.webp" style="max-width: 30%; height: auto;"/>
 </div>
 <p align="center">Model Inference Example</p>
 
-<!-- ![DeepRob Logo]({{ site.baseurl }}/assets/logos/favicons/UMich_favicon_dark.png) -->
-
-
-<!-- ## Project Video
-
-You can display a video with your model's results by either uploading to youtube, then copying your video's `<iframe>` source as shown below. Alternatively if your video files are small, we can host them directly on the DeepRob server.
-
-<div class="video-wrap">
-  <div class="video-container">
-	<iframe src="https://www.youtube.com/embed/dx1G7y6mhMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  </div>
-</div> -->
 
 
 ## Citation
