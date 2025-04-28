@@ -4,11 +4,9 @@ parent: Reports
 title: "DOPE-Plus: Enhancements in Feature Extraction and Data Generation for 6D Pose Estimation"
 description: Group 6 final project report for DeepRob at the University of Michigan.
 authors:
-  - name: Jeffery Chen
-    # social: "https://topipari.com"
+  - name: Jeffrey Chen
     affiliation: University of Michigan
   - name: Yuqiao Luo
-    # social: "https://xiaoxiaodu.net/"
     affiliation: University of Michigan
   - name: Longzhen Yuan
     affiliation: University of Michigan
@@ -22,23 +20,22 @@ authors:
 
 
 <div class="project-links" markdown="1">
-[![]({{ site.baseurl }}/assets/logos/acrobat.svg){: .text-logo } Report]({{ site.baseurl }}/assets/projects/reports/DOPE-Plus/ROB599_Final_report.pdf){: .btn .btn-grey .mr-6 }
-[![]({{ site.baseurl }}/assets/logos/github-mark.svg){: .text-logo } Dataset Code](https://github.com/swtyree/hope-dataset){: .btn .btn-grey target="_blank" rel="noopener noreferrer" .mr-6}
-[![]({{ site.baseurl }}/assets/logos/github-mark.svg){: .text-logo } Model Code](https://github.com/jypipi/Our_DOPE){: .btn .btn-grey target="_blank" rel="noopener noreferrer" }
+[![]({{ site.baseurl }}/assets/logos/acrobat.svg){: .text-logo } Report]({{ site.baseurl }}Project_Report.pdf){: .btn .btn-grey .mr-6 }
+[![]({{ site.baseurl }}/assets/logos/github-mark.svg){: .text-logo } Code](https://github.com/jypipi/DOPE-Plus){: .btn .btn-grey target="_blank" rel="noopener noreferrer" }
 </div>
 
 
 ## Abstract
 
-This essay investigated the possibility of improving DOPE's network architecture. We proposed to replace the original VGG19 convolutional neural network with vision transformer as our feature extractor. Then we trained our modified model with HOPE dataset and our own generated domain randomized data, to see if this architecture change could bring a better performance. The experiment result shows that ViT does perform better than VGG19. This shows a promising future to further improve DOPE by using different feature extractors.  
+This study explored enhancements to the DOPE framework by improving both its network architecture and synthetic data generation pipeline for 6D object pose estimation. We proposed replacing the original VGG-19-based feature extractor with a Vision Transformer (ViT), aiming to leverage its superior representation capabilities. In parallel, we developed a refined data generation pipeline, resulting in an augmented HOPE dataset \cite{lin2021fusion} and a new fully synthetic dataset of a customized object, Block. These datasets were used to train and evaluate our modified DOPE model on two target objects: Cookies and Block. Experimental results demonstrate that incorporating ViT improves pose estimation performance over the original VGG-19 backbone, suggesting the potential for further advancements through the integration of more powerful feature extractors.
 
-## Introduction
+## Introduction and Backgrounds
 
-As robotics are becoming more promising in the future society, people are exploring ways to give robotics the ability to handle daily affairs. Many of these affairs require basic operations such as fetching, which is based on an accurate pose estimation of the target objects. This article investigated the DOPE (Deep Object Pose Estimation) proposed by J. Tremblay et al. in 2018, and tried to make extensions based on the original network structure. The original work used a VGG19 as a feature extractor, while in our work, we modified that to Vision Transformer(ViT), due to its better ability of overall feature extraction, especially for relationships of multi-objects. After that, we applied the synthetic data method (proposed by original DOPE paper) to a new dataset and plugged it into our network. Our goal is to advance the accuracy of 3D objects' pose estimation and verify the effectiveness of image synthesis method for the purpose of manipulating the robot arm to operate these objects in real world.  
+As robotics continues to advance, researchers are increasingly exploring ways to equip robots with the capabilities needed to perform everyday tasks. Many of these tasks require fundamental operations such as object fetching, which depend on accurate pose estimation of target objects. This study investigated the DOPE (Deep Object Pose Estimation) proposed by J. Tremblay et al. in 2018, and further extended the feature extraction and data generation pipelines. The original DOPE framework employed VGG-19 as the feature extractor. In our work, we replaced it with a Vision Transformer (ViT), motivated by its superior feature extraction capabilities, particularly in capturing relationships between multiple objects. Meanwhile, we enhanced the original DOPE data synthesis pipeline to augment and generate two new datasets for network training. Our goal is to improve the accuracy of 6D object pose estimation and to validate the effectiveness of our enhancements for object perception in real-world scenarios.
 
-DOPE  
+### DOPE  
 
-DOPE (Deep Object Pose Estimation) is a one-shot, deep neural network-based system designed to estimate the 3D poses of known objects in cluttered scenes from a single RGB image, in near real time and without the need for post-alignment.The DOPE network is a convolutional deep neural network that detects objects' 3D keypoints using multistage architechture. 
+DOPE (Deep Object Pose Estimation) is a one-shot, instance-based, deep neural network-based system designed to estimate the 3D poses of known objects in cluttered scenes from a single RGB image, in near real time and without the need for post-alignment.The DOPE network is a convolutional deep neural network that detects objects' 3D keypoints using multistage architechture. 
 
 Firstly, the image features are extracted by the first ten layers of the VGG-19 convolutional neural network (with pre-trained parameters). Then two 3 × 3 convolutional are applied to the features to reduce the feature dimensions from 512 to 128. 
 
@@ -46,19 +43,20 @@ Second, these 128-dimensional features are fed into the first stage, which consi
 
 There are 9 believe maps, 8 of them are for the projected vertices of the 3D objects and one for its centroid. Vector fields indicate that the direction from vertices to their corresponding centroids, to construct the bounding boxes of objects after detection.  
 
-Data Generation:  
+### Data Generation:  
 
-As more data is required to train a high performance deep network, it can be difficult to gather enough data for training. In addition, unlike 2D labeling, making 3D pose labels manually is much more difficult. DOPE proposed a method to generate data, which allows scientists to gather enough number of data rapidly, and greatly alleviate the workload of labeling manually.
+As more data is required to train a deep network with high performance, it can be difficult to gather enough data for training. In addition, unlike 2D labeling, making 3D pose labels manually is much more difficult. DOPE proposed a method to generate data, which allows scientists to gather enough number of data rapidly, and greatly alleviate the workload of labeling manually.
 
 The overall data synthesis strategy is to generate two kinds of dataset: "domain randomized (DR)" and "photorealistic (photo)". The domain randomized data are generated by putting the target object into a virtual environment, which is composed of different distractor objects and a random background. The objects shown in DR images do not necessarily obey physical principles. Photorealistic data are generated by putting target objects into 3D backgrounds with physical constraints. In other words, they are impacted by the effects of gravity and collision.
 
 
 ## Algorithmic Extension
-Network Architecture  
+
+### Network Architecture  
 
 One of our algorithmic extensions is that we replaced the original VGG19 feature extractor network with ViT, because we perceive ViT's larger receptive field and its ability to relate the global scene, rather than focus on a local area. To make this change, many parts of the original model backbone need to be modified.We created a pre-trained ViT feature extractor using the timm library. It accepts images of dimension 244 × 244 with a patch size 16 × 16, as a result, interpolating is needed to make sure the input data has a size of 244 × 244. Then we take the output from ViT only in the final layer. At the next stage, two convolutional layers are employed to reduce the number of channel to 128, hence the dimension matches the following network structure (the belief map stages).
 
-Data Generation  
+### Data Generation  
 
 We enhanced the original data generation pipeline using BlenderProc to produce two distinct synthetic RGB datasets, each corresponding to a specific target object: Cookies and Block. The Cookies object is part of the publicly available HOPE dataset, while the Block is a newly introduced, custom-designed object. Our pipeline incorporates randomized camera poses, object poses, and 360-degree HDRI backgrounds, while ensuring that these variations remain physically reasonable. These improvements aim to create a more diverse and robust synthetic dataset, helping to mitigate the common sim-to-real domain gap in deep learning applications. The enhanced pipeline consists of four main stages: (1) textured 3D CAD modeling, (2) real-world HDRI background generation, (3) image synthesis, and (4) ground truth annotation pre-processing.
 
@@ -67,12 +65,12 @@ We enhanced the original data generation pipeline using BlenderProc to produce t
   To obtain a precise 3D textured model of the customized object, we first used SolidWorks to create an accurate geometric model with correct dimensions. Blender was then employed to add textures and enrich visual details, including colors and physical material properties, as shown in below.
 
 <div class="center-image">
-<img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/block_blender.png" />
+<img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/block_blender.png" style="max-width: 40%;"/>
 </div>
 <p align="center">3D Textured Model</p>
   For real-world HDRI background generation, we captured raw 360-degree images of the desired physical environments using the Insta360 X3 camera. These images were subsequently pre-processed and converted into HDRI backgrounds using Adobe Photoshop, as illustrated below.
   <div class="center-image">
-<img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/HDR_example.png" style="max-width: 60%;"/>
+<img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/HDR_example.png" style="max-width: 40%;"/>
 </div>
 <p align="center">Sampled HDRI Background</p>
 
@@ -83,7 +81,6 @@ We enhanced the original data generation pipeline using BlenderProc to produce t
   (3)Ground Truth Annotation Pre-Processing
 
   With the existing pipeline provided by original paper, ground truth annotations for each frame were automatically generated. However, when constructing a comprehensive dataset for training and validation, it was necessary to combine synthetic and real images from various sources. In this case, the annotation files (e.g., JSON files) often differed in format and configuration. To streamline data preparation and ensure compatibility with downstream tasks, we developed an additional Python script to pre-process and standardize the ground truth annotations.
-
 
 
 
@@ -109,7 +106,7 @@ We augmented the original HOPE dataset and created a new dataset for the customi
 
   In addition to augmenting the HOPE dataset, we created a fully synthetic dataset for our customized Block object using the aforementioned methods and strategies. This dataset consists of over 19,300 domain-randomized images, with random variations in block poses, instance counts, backgrounds, and distractor objects. Furthermore, as shown below, lighting conditions and shadows were simulated and rendered to further enhance realism and dataset diversity.
   <div class="center-image">
-<img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/000031.png" />
+<img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/000031.png" style="max-width: 30%;"/>
 </div>
 <p align="center">Synthetic Domain Randomized Image in the Synthetic Block Dataset</p>
 
@@ -159,7 +156,7 @@ An example of model belief map prediction is shown below:
 
 An example of our model inference to predict the object's bounding box is shown below:
 <div class="center-image">
-<img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/inference_predict.png" />
+<img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/DOPE-Plus/inference_predict.png" style="max-width: 30%; height: auto;"/>
 </div>
 <p align="center">Model Inference Example</p>
 
@@ -182,16 +179,15 @@ You can display a video with your model's results by either uploading to youtube
 If you found our work helpful, consider citing us with the following BibTeX reference:
 
 ```
-@article{jeffery2025deeprob,
-  title = {Feature Extraction Enhancement for 6D Pose Estimation},
-  author = {Chen, Jeffery and Luo, Yuqiao and Yuan, Longzhen},
+@article{jeffrey2025deeprob,
+  title = {DOPE-Plus: Enhancements in Feature Extraction and Data Generation for 6D Pose Estimation},
+  author = {Chen, Jeffrey and Luo, Yuqiao and Yuan, Longzhen},
   year = {2025}
 }
 ```
 
 
-
 ## Contact
 
-If you have any questions, feel free to contact [Jeffery Chen, Yuqiao Luo and Longzhen Yuan](mailto:jeffzc@umich.edu?cc=joeluo@umich.edu?cc=longzhen@umich.edu).
+If you have any questions, feel free to contact [Jeffrey Chen, Yuqiao Luo and Longzhen Yuan](mailto:jeffzc@umich.edu?cc=joeluo@umich.edu?cc=longzhen@umich.edu).
 
