@@ -5,14 +5,17 @@ title: Ultra
 description: This is a final project report for DeepRob at the University of Michigan.
 authors:
   - name: Justin Boverhof
-    social: "https://justinboverhof.com"
     affiliation: University of Michigan
+    year: Robotics
   - name: Joseph Fedoronko
     affiliation: University of Michigan
+    year: Robotics
   - name: Anay Moitra
     affiliation: University of Michigan
+    year: Computer Science
   - name: Andrew Rodriguez
     affiliation: University of Michigan
+    year: Robotics
 
     
 ---
@@ -20,7 +23,7 @@ authors:
 
 <!-- This shows how to add an image (or gif) in markdown -->
 <div class="center-image">
-<img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/example/deeprob.gif" />
+<img alt="Teaser Figure" src="{{ site.baseurl }}/assets/projects/reports/lane/FPN.png" />
 </div>
 
 
@@ -58,10 +61,9 @@ You can display a video with your model's results by either uploading to youtube
 If you found our work helpful, consider citing us with the following BibTeX reference:
 
 ```
-@article{opipari2024deeprob,
-  title = {Example Project: A final project template for DeepRob},
-  author = {Opipari, Anthony and Du, Xiaoxiao and Tong, Edmond and Lu, Yifu and Richardson, Dalton and Jenkins, Odest Chadwicke},
-  year = {2024}
+@article{landdetection2025deeprob,
+  title = {FPN Lane Detection},
+  author = {Boverhof, Justin and Fedoronko, Joseph and Moitra, Anay and Rodriguez, Andrew},
+  year = {2025}
 }
 ```
-Be sure to update this reference to include your team's author information for correct attribution!
