@@ -24,3 +24,6 @@ Ruben Fonseca, and Sacchin Sundar
 
 ### [Improving the Robustness of Object Detection Under Hazardous Conditions]({{ site.baseurl }}/reports/deweathered/)
 Rui Li, Yuqing Luo, Inbum Park, and Ziyang Xuan
+
+### [Learning-Based Segmentation & Grasping on FETCH with PointNet++ & AnyGrasp]({{ site.baseurl }}/reports/FETCH-GRASP/)
+Marzuk Kalluparaman, Hemanth Murali, Maithreyan Ganesh, and Jyotishka Dutta Gupta
