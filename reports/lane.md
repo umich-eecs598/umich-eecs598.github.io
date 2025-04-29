@@ -1,23 +1,22 @@
 ---
 layout: project
 parent: Reports
-title: Dynamic Weather Aware Lane Detection
-description: This is a final project report for DeepRob at the University of Michigan.
-authors:
-  - name: Justin Boverhof
-    affiliation: University of Michigan
-    year: Robotics
-  - name: Joseph Fedoronko
-    affiliation: University of Michigan
-    year: Robotics
-  - name: Anay Moitra
-    affiliation: University of Michigan
-    year: Computer Science
-  - name: Andrew Rodriguez
-    affiliation: University of Michigan
-    year: Robotics
+title: "Dynamic Weather-Aware Lane Detection"
+description: "Final project report for DeepRob at the University of Michigan."
 
-    
+authors:
+  - name: "Justin Boverhof"
+    affiliation: "University of Michigan"
+    year: "Robotics"
+  - name: "Joseph Fedoronko"
+    affiliation: "University of Michigan"
+    year: "Robotics"
+  - name: "Anay Moitra"
+    affiliation: "University of Michigan"
+    year: "Computer Science"
+  - name: "Andrew Rodriguez"
+    affiliation: "University of Michigan"
+    year: "Robotics"
 ---
 
 
@@ -44,7 +43,7 @@ In order to address the concernes we had about lane detection in adverse weather
 
 To validate the results of our methodology, we decided to train both two models, one without the addition of a simple weather-aware classifier and one with it. Both were trained for 2 epochs. We then utilized the built in evaluation command that came with the UFLD paper to see the precision, recall, and the F1 scores. For our tests, we were able to evaluate the model without any additions in all the different environment but did a basic score for the model with additions.
 
-### Table 2. Precision, Recall, and F1 Score for the Colab Dynamic Prompting Demonstration.
+### Table 1. Precision, Recall, and F1 Score for the Colab Dynamic Prompting Demonstration.
 
 | Experiment                | Precision | Recall | F1    |
 |----------------------------|-----------|--------|-------|
