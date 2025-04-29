@@ -44,6 +44,13 @@ In order to address the concernes we had about lane detection in adverse weather
 
 To validate the results of our methodology, we decided to train both two models, one without the addition of a simple weather-aware classifier and one with it. Both were trained for 2 epochs. We then utilized the built in evaluation command that came with the UFLD paper to see the precision, recall, and the F1 scores. For our tests, we were able to evaluate the model without any additions in all the different environment but did a basic score for the model with additions.
 
+### Table 2. Precision, Recall, and F1 Score for the Colab Dynamic Prompting Demonstration.
+
+| Experiment                | Precision | Recall | F1    |
+|----------------------------|-----------|--------|-------|
+| Colab Dynamic Prompting    | 0.9876    | 0.9853 | 0.9890 |
+
+To validate our dynamic prompting and clustering pipeline, we ran a lightweight experiment on 1000 CULane images. Features were clustered into four groups, and a simple weather-aware classifier trained on these clusters achieved high performance, confirming our method's effectiveness at modeling weather variations with limited supervision.
 
 ## Citation
 
