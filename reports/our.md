@@ -29,7 +29,7 @@ authors:
 
 
 <div class="project-links" markdown="1">
-[![]({{ site.baseurl }}/assets/logos/acrobat.svg){: .text-logo } Report](https://www.overleaf.com/project/67fef85edf3fcbb580c9f9b2){: .btn .btn-grey .mr-6 }
+[![]({{ site.baseurl }}/assets/logos/acrobat.svg){: .text-logo } Report]({{ site.baseurl }}/assets/projects/reports/our/DeepRobProjectReport.pdf){: .btn .btn-grey .mr-6 }
 [![]({{ site.baseurl }}/assets/logos/github-mark.svg){: .text-logo } Code](https://github.com/fuingcrazy/DiffusionDet-on-PROPS){: .btn .btn-grey target="_blank" rel="noopener noreferrer" }
 </div>
 
