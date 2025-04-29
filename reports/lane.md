@@ -1,7 +1,7 @@
 ---
 layout: project
 parent: Reports
-title: Ultra
+title: Dynamic Weather Aware Lane Detection
 description: This is a final project report for DeepRob at the University of Michigan.
 authors:
   - name: Justin Boverhof
@@ -27,10 +27,10 @@ authors:
 </div>
 
 
-<div class="project-links" markdown="1">
+<!-- <div class="project-links" markdown="1">
 [![]({{ site.baseurl }}/assets/logos/acrobat.svg){: .text-logo } Report](#){: .btn .btn-grey .mr-6 }
 [![]({{ site.baseurl }}/assets/logos/github-mark.svg){: .text-logo } Code](https://github.com/opipari/DeepRobWeb/blob/w24/reports/example.md){: .btn .btn-grey target="_blank" rel="noopener noreferrer" }
-</div>
+</div> -->
 
 
 ## Abstract
@@ -61,7 +61,7 @@ You can display a video with your model's results by either uploading to youtube
 If you found our work helpful, consider citing us with the following BibTeX reference:
 
 ```
-@article{landdetection2025deeprob,
+@article{DynamicWeatherLaneDetection2025deeprob,
   title = {FPN Lane Detection},
   author = {Boverhof, Justin and Fedoronko, Joseph and Moitra, Anay and Rodriguez, Andrew},
   year = {2025}
