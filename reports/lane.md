@@ -42,25 +42,10 @@ In order to address the concernes we had about lane detection in adverse weather
 
 ## Results
 
-Visual results are great for project webpages; exciting results can captivate an audience and convey dense information efficiently. We suggest including images, figures, animations, and videos on your webpage. For example, static images can be displayed as shown below:
-
-![DeepRob Logo]({{ site.baseurl }}/assets/logos/favicons/UMich_favicon_dark.png)
-
-
-## Project Video
-
-You can display a video with your model's results by either uploading to youtube, then copying your video's `<iframe>` source as shown below. Alternatively if your video files are small, we can host them directly on the DeepRob server.
-
-<div class="video-wrap">
-  <div class="video-container">
-	<iframe src="https://www.youtube.com/embed/dx1G7y6mhMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  </div>
-</div>
+To validate the results of our methodology, we decided to train both two models, one without the addition of a simple weather-aware classifier and one with it. Both were trained for 2 epochs. We then utilized the built in evaluation command that came with the UFLD paper to see the precision, recall, and the F1 scores. For our tests, we were able to evaluate the model without any additions in all the different environment but did a basic score for the model with additions.
 
 
 ## Citation
-
-If you found our work helpful, consider citing us with the following BibTeX reference:
 
 ```
 @article{DynamicWeatherLaneDetection2025deeprob,
