@@ -78,6 +78,12 @@ DiseasedCNN-Lite's inference time was much faster than DiseasedCNN's, and will l
 
 We believe that with slight changes to hyperparameters, and many more epochs of training, DiseasedCNN-Lite could increase its capabilities. We would have to be careful not to overfit to our dataset, and to prevent this our best option would likely be to increase our data augmentation. To best support an increase in DiseasedCNN-Lite's abilities, we would continue to calibrate DiseasedCNN in order to optimize its accuracy. Although unlikely, it is possible that DiseasedCNN-Lite could achieve a higher test accuracy than its teacher, DiseasedCNN. However, a more accurate teacher model would only be more helpful during training.
 
+<div style="display: flex; justify-content: center; gap: 20px;">
+<img style="width:50%;" alt="Training Loss" src="{{ site.baseurl }}/assets/projects/reports/leaf/StudentTeacher_Train_Loss.png" />
+<img style="width:50%;" alt="Validation Accuracy" src="{{ site.baseurl }}/assets/projects/reports/leaf/StudentTeacher_Val_Acc.png" />
+</div>
+
+
 ## Conclusions
 
 DiseasedCNN-Lite achieved a respectable accuracy of 87%, while being an extremely lightweight model totaling only 390 kilobytes in size. Compared to the capabilities of its teacher, DiseasedCNN-Lite was capable of similar accuracies while shrinking the size of the model by a factor of 334. Overall, this model is still not ready to be deployed and tested with agricultural robots and drones, but it lays a solid foundation for future work.
