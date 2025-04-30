@@ -80,18 +80,18 @@ Robotic grasping in unstructured environments remains a significant challenge du
 
 ### Robust Grasp Perception: AnyGrasp
 
-AnyGrasp provides dense and temporally consistent 7-DoF grasp pose predictions from partial point clouds. The system consists of a Geometry Processing Module, which samples and predicts stable grasp candidates using point-wise features, and a Temporal Association Module, which tracks grasps across frames for dynamic scenes using feature-based matching. Trained on real-world GraspNet-1Billion data with randomized point dropout, AnyGrasp achieves a 93.3% success rate in bin-picking tasks involving unseen objects.
+AnyGrasp [(Fang et al., 2022)](https://arxiv.org/abs/2212.08333){: target="_blank" rel="noopener noreferrer"} provides dense and temporally consistent 7-DoF grasp pose predictions from partial point clouds. The system consists of a Geometry Processing Module, which samples and predicts stable grasp candidates using point-wise features, and a Temporal Association Module, which tracks grasps across frames for dynamic scenes using feature-based matching. Trained on real-world GraspNet-1Billion data with randomized point dropout, AnyGrasp achieves a 93.3% success rate in bin-picking tasks involving unseen objects.
 
 <div class="image-row">
-  <img src="{{ site.baseurl }}/assets/projects/reports/FETCH-GRASP/Anygrasp.png" alt="AnyGrasp Pipeline">
+  <img src="{{ site.baseurl }}/assets/projects/reports/FETCH-GRASP/Anygrasp.webp" alt="AnyGrasp Pipeline">
 </div>
 
 ### Transparent Object Depth Completion: TransCG
 
-To address the challenge of incomplete depth perception for transparent objects, TransCG introduces a real-world dataset and an efficient depth completion model, DFNet. DFNet refines noisy RGB-D inputs using dense blocks and a dual-loss strategy focusing on depth and surface normals. Trained on 57,715 images with augmentation, DFNet outperforms prior methods like ClearGrasp and demonstrates real-time performance, improving grasping reliability for transparent and translucent objects.
+To address the challenge of incomplete depth perception for transparent objects, TransCG [(Fang et al., 2022)](https://arxiv.org/abs/2202.08471){: target="_blank" rel="noopener noreferrer"} introduces a real-world dataset and an efficient depth completion model, DFNet. DFNet refines noisy RGB-D inputs using dense blocks and a dual-loss strategy focusing on depth and surface normals. Trained on 57,715 images with augmentation, DFNet outperforms prior methods like ClearGrasp and demonstrates real-time performance, improving grasping reliability for transparent and translucent objects.
 
 <div class="image-row">
-  <img src="{{ site.baseurl }}/assets/projects/reports/FETCH-GRASP/transcg.png" alt="TransCG Pipeline">
+  <img src="{{ site.baseurl }}/assets/projects/reports/FETCH-GRASP/transcg.webp" alt="TransCG Pipeline">
 </div>
 
 ## Results
@@ -124,8 +124,8 @@ Grasping performance differs notably between rigid and deformable objects. Rigid
 </table>
 
 <div class="image-row">
-  <img src="{{ site.baseurl }}/assets/projects/reports/FETCH-GRASP/rigid_grasp.png" alt="Rigid Grasp 1">
-  <img src="{{ site.baseurl }}/assets/projects/reports/FETCH-GRASP/rigid_grasp_2.png" alt="Rigid Grasp 2">
+  <img src="{{ site.baseurl }}/assets/projects/reports/FETCH-GRASP/rigid_grasp.webp" alt="Rigid Grasp 1">
+  <img src="{{ site.baseurl }}/assets/projects/reports/FETCH-GRASP/rigid_grasp_2.webp" alt="Rigid Grasp 2">
 </div>
 
 ### Effect of Environment Clutter
@@ -156,8 +156,8 @@ Grasping performance varies significantly between isolated and cluttered environ
 </table>
 
 <div class="image-row">
-  <img src="{{ site.baseurl }}/assets/projects/reports/FETCH-GRASP/transcg1.png" alt="Transparent Grasp 1">
-  <img src="{{ site.baseurl }}/assets/projects/reports/FETCH-GRASP/transcg2.png" alt="Transparent Grasp 2">
+  <img src="{{ site.baseurl }}/assets/projects/reports/FETCH-GRASP/transcg1.webp" alt="Transparent Grasp 1">
+  <img src="{{ site.baseurl }}/assets/projects/reports/FETCH-GRASP/transcg2.webp" alt="Transparent Grasp 2">
 </div>
 
 ### Effect of Object Transparency
@@ -189,8 +189,8 @@ Grasping transparent objects presents substantial challenges compared to opaque 
 </table>
 
 <div class="image-row">
-  <img src="{{ site.baseurl }}/assets/projects/reports/FETCH-GRASP/deform1.png" alt="Deformable Grasp 1">
-  <img src="{{ site.baseurl }}/assets/projects/reports/FETCH-GRASP/deform2.png" alt="Deformable Grasp 2">
+  <img src="{{ site.baseurl }}/assets/projects/reports/FETCH-GRASP/deform1.webp" alt="Deformable Grasp 1">
+  <img src="{{ site.baseurl }}/assets/projects/reports/FETCH-GRASP/deform2.webp" alt="Deformable Grasp 2">
 </div>
 
 

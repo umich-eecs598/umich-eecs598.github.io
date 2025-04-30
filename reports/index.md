@@ -11,6 +11,8 @@ has_toc: false
 # Final Project Reports
 {:.no_toc}
 
+### [Learning-Based Segmentation & Grasping on FETCH with PointNet++ & AnyGrasp]({{ site.baseurl }}/reports/FETCH-GRASP/)
+Marzuk Kalluparamban, Hemanth Murali, Maithreyan Ganesh, and Jyotishka Dutta Gupta
 
 ### [DOPE-Plus: Enhancements in Feature Extraction and Data Generation for 6D Pose Estimation]({{ site.baseurl }}/reports/DOPE-Plus/)
 Jeffrey Chen, Yuqiao Luo, and Longzhen Yuan
@@ -32,4 +34,6 @@ Eric Chen and Emily Wu
 
 ### [Convergence Acceleration For DiffusionDet: On PROPS Dataset]({{ site.baseurl }}/reports/diffdet/)
 Gongxing Yu, Liangkun Sun, and Yang Lyu
+
+
 
