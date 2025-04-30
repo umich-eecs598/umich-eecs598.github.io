@@ -35,5 +35,7 @@ Eric Chen and Emily Wu
 ### [Convergence Acceleration For DiffusionDet: On PROPS Dataset]({{ site.baseurl }}/reports/diffdet/)
 Gongxing Yu, Liangkun Sun, and Yang Lyu
 
+### [Dynamic Weather-Aware Lane Detection]({{ site.baseurl }}/reports/lane/)
+Justin Boverhof, Joseph Fedoronko, Anay Moitra, and Andrew Rodriguez
 
 
