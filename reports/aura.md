@@ -16,17 +16,17 @@ authors:
 ---
 
 <div class="project-links" markdown="1">
-[![]({{ site.baseurl }}/assets/logos/acrobat.svg){: .text-logo } Report](/w25/assets/projects/reports/aura/Deep_Rob_Final_Report.pdf){: .btn .btn-grey .mr-6 }
+[![]({{ site.baseurl }}/assets/logos/acrobat.svg){: .text-logo } Report](/w25/assets/projects/reports/aura/Deep_Rob_Final_Report.pdf){: .btn .btn-grey .mr-6 target="_blank" rel="noopener noreferrer" }
 [![]({{ site.baseurl }}/assets/logos/github-mark.svg){: .text-logo } Code](https://github.com/wuemily/deeprob_siMLPe){: .btn .btn-grey target="_blank" rel="noopener noreferrer" }
 </div>
 
 ## Abstract
 
-Collaborative robots must safely and efficiently operate alongside humans, especially in dynamic and creative environments such as artistic painting. In this work, we develop a human-aware motion planning system for a 6-DoF robot arm collaborating with a human artist. Using real-time 3D human pose estimation from <a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose">OpenPose</a> combined with depth sensing, we capture the artist’s motion and predict future poses with the lightweight <a href="https://github.com/dulucas/siMLPe">siMLPe</a> network. Predicted human poses are then converted into obstacle representations for real-time collision-aware trajectory planning using <a href="https://moveit.picknik.ai/humble/index.html">MoveIt2</a>. Our system integrates multiple open-source platforms including ROS2, Gazebo, and multiple learning models to enable the robot to adaptively paint around human collaborators. Results show a functional pipeline demonstrating a strong proof-of-concept for human-aware collaboration in creative tasks. Future work includes improving prediction robustness, increasing sensor fidelity, and collecting artist-specific datasets for model refinement. For more in depth information, please check out our technical report linked above.
+Collaborative robots must safely and efficiently operate alongside humans, especially in dynamic and creative environments such as artistic painting. In this work, we develop a human-aware motion planning system for a 6-DoF robot arm collaborating with a human artist. Using real-time 3D human pose estimation from <a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose" target="_blank" rel="noopener noreferrer">OpenPose</a> combined with depth sensing, we capture the artist’s motion and predict future poses with the lightweight <a href="https://github.com/dulucas/siMLPe" target="_blank" rel="noopener noreferrer">siMLPe</a> network. Predicted human poses are then converted into obstacle representations for real-time collision-aware trajectory planning using <a href="https://moveit.picknik.ai/humble/index.html" target="_blank" rel="noopener noreferrer">MoveIt2</a>. Our system integrates multiple open-source platforms including ROS2, Gazebo, and multiple learning models to enable the robot to adaptively paint around human collaborators. Results show a functional pipeline demonstrating a strong proof-of-concept for human-aware collaboration in creative tasks. Future work includes improving prediction robustness, increasing sensor fidelity, and collecting artist-specific datasets for model refinement. For more in depth information, please check out our technical report linked above.
 
 ## Background
 
-This project was completed for the Deep Learning for 3D Robot Perception class at the University of Michigan in the winter of 2025. The motion planner developed was an exploration into human-aware planning for a collaborative robot arm for the AURA project in the <a href="https://robotdesign.studio/">Robot Studio Lab
+This project was completed for the Deep Learning for 3D Robot Perception class at the University of Michigan in the winter of 2025. The motion planner developed was an exploration into human-aware planning for a collaborative robot arm for the AURA project in the <a href="https://robotdesign.studio/" target="_blank" rel="noopener noreferrer">Robot Studio Lab
 </a> under Professor Patricia Alves-Oliveira. The AURA project aims to explore what authenticity of the production process of an artwork means, using biometric data, to better understand Generative AI's impact on the artist community.  
 
 <div class="video-wrap">
@@ -38,7 +38,7 @@ This project was completed for the Deep Learning for 3D Robot Perception class a
 ## System Diagram
 
 <div class="center-image">
-<img alt="Teaser Figure" src="/w25/assets/projects/reports/aura/deeprob_poster.drawio.png" />
+<img style="width:75%;" alt="System Diagram" src="/w25/assets/projects/reports/aura/deeprob_poster.drawio.png" />
 </div>
 
 In our system, we are capturing the artists movements using an Intel Realsense D455 camera. Using OpenPose to track the human joint positions and querying the depth data at joint positions, we obtain the human poses in the past 25 timesteps. This is then sent to our pre-trained siMLPe model to predict the poses in the next 10 timesteps. The predicted poses are reduced more as we take the torso and arm joints to create cylinders or other primitive shapes to represent a safe area around the human pose for the robot to plan around. These obstacles are sent to MoveIt which will simulate the obstacles and robot arm to create safe trajectories. The goal positions for the robot are given from the CoFRIDA node, which plans strokes for the robot to paint using Generative AI. Once a trajectory is found, the robot can execute it in the real world. 
@@ -52,13 +52,13 @@ A challenge related to the datasets used in training included lack of documentat
 We visualize the detected 2D joint keypoints using OpenPose overlaid on the live RGB camera feed in Figure \ref{fig:openposemap}. The right side of each image shows the extracted skeleton structure in 2D space. This mapping provides the foundation for accurate 3D human pose reconstruction in our pipeline when combined with depth information.
 
 <div class="center-image">
-<img alt="Teaser Figure" src="/w25/assets/projects/reports/aura/openposemap.jpg" />
+<img style="width:75%;" alt="Teaser Figure" src="/w25/assets/projects/reports/aura/openposemap.jpg" />
 </div>
 
 We show the predicted future joint trajectories from the siMLPe network over several frames. Each plot visualizes the progression of joint movements based on past observed poses, demonstrating the model’s ability to anticipate natural human motion with minimal latency.
 
 <div class="center-image">
-<img alt="Teaser Figure" src="/w25/assets/projects/reports/aura/predpose.jpg" />
+<img style="width:75%;" alt="Teaser Figure" src="/w25/assets/projects/reports/aura/predpose.jpg" />
 </div>
 
 The predicted human motion from siMLPe were used to generate virtual obstacles around the human body. These obstacles are placed into the motion planning environment in Gazebo, allowing the robot arm to plan and execute collision-free trajectories in real-time alongside a moving human collaborator.
@@ -66,7 +66,7 @@ The predicted human motion from siMLPe were used to generate virtual obstacles a
 In this work, we showed a strong proof-of-concept for a motion planner using predicted human motion. We were able to apply siMLPe in an online robotic system through the integration and connection of multiple disjoint open-source software.
 
 <div class="center-image">
-<img alt="Teaser Figure" src="/w25/assets/projects/reports/aura/obsgen.jpg" />
+<img style="width:40%;" alt="Teaser Figure" src="/w25/assets/projects/reports/aura/obsgen.jpg" />
 </div>
 
 ## Future Work
@@ -94,7 +94,6 @@ If you found our work helpful, consider citing us with the following BibTeX refe
   year = {2025}
 }
 ```
-Be sure to update this reference to include your team's author information for correct attribution!
 
 
 ## Contact

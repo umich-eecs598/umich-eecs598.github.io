@@ -20,7 +20,10 @@ Jeffrey Chen, Yuqiao Luo, and Longzhen Yuan
 David Smith, Jess Wu, and William Hasey
 
 ### [(Eye) BAGS: Bundle-Adjusting Gaussian Splatting]({{ site.baseurl }}/reports/BAGS/)
-Ruben Fonseca, and Sacchin Sundar
+Ruben Fonseca and Sacchin Sundar
 
 ### [Improving the Robustness of Object Detection Under Hazardous Conditions]({{ site.baseurl }}/reports/deweathered/)
 Rui Li, Yuqing Luo, Inbum Park, and Ziyang Xuan
+
+### [Human Aware Motion Planning for 6 DoF Robot Arm in Painting Application]({{ site.baseurl }}/reports/aura/)
+Eric Chen and Emily Wu
