@@ -27,3 +27,7 @@ Rui Li, Yuqing Luo, Inbum Park, and Ziyang Xuan
 
 ### [Human Aware Motion Planning for 6 DoF Robot Arm in Painting Application]({{ site.baseurl }}/reports/aura/)
 Eric Chen and Emily Wu
+
+
+### [Convergence Acceleration For DiffusionDet: On PROPS Dataset]({{ site.baseurl }}/reports/diffdet/)
+Gongxing Yu, Liangkun Sun, and Yang Lyu
