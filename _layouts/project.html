@@ -27,14 +27,22 @@ layout: table_wrappers
             {% else %}
               {{author.name}}
             {% endif %}
-            <br>
-            {{author.affiliation}}
-            <br>
-            {{author.year}}  
-            <br>
-            {{author.hometown}}            
-            <br>
-            {{author.email}}
+            {% if author.affiliation %}
+              <br>
+              {{author.affiliation}}
+            {% endif %}
+            {% if author.year %}
+              <br>
+              {{author.year}}  
+            {% endif %}
+            {% if author.hometown %}
+              <br>
+              {{author.hometown}}  
+            {% endif %}    
+            {% if author.email %}      
+              <br>
+              {{author.email}}
+            {% endif %}
             </div>
           {% endfor %}
         </div>
