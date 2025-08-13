@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+title: Homeworks
 description: >-
     Course project outline.
 nav_order: 8

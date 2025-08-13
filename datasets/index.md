@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Datasets
+title: Labs (EECS 598 Only)
 description: Overview of the robot perception datasets used throughout the DeepRob course.
 nav_order: 7
 has_children: true

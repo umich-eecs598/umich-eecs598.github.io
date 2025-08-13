@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Action & Perception"
+title: "EECS 542/598"
 tagline: Deep Learning for Robot Perception
 description: This course covers the necessary background of neural-network-based deep learning for robot perception – building on advancements in computer vision that enable robots to physically manipulate objects
 author: Drew Scheffer
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://deeprob.org' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
-logo: "/assets/logos/favicons/UMich_favicon_light.png"
+# logo: "/assets/logos/favicons/UMich_favicon_light.png"
 destination: _site/
 
 ga_tracking: G-FX9SVF3WSQ

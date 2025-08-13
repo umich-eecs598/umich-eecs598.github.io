@@ -6,6 +6,7 @@ description: >-
 nav_order: 9
 has_children: false
 has_toc: false
+nav_exclude: true
 ---
 
 # Final Project Reports
