@@ -3,6 +3,7 @@ layout: page
 title: Office Hours
 description: Weekly meeting schedule for the course, Deep Learning for Robot Perception at the University of Michigan.
 nav_order: 4
+nav_exclude: true
 ---
 
 

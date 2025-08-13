@@ -3,6 +3,7 @@ layout: page
 title: Staff
 description: A directory of the teaching staff for Deep Learning for Robot Perception at the University of Michigan.
 nav_order: 10
+nav_exclude: true
 ---
 
 # Deep Rob Course Staff

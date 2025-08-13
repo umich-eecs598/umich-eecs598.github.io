@@ -5,6 +5,7 @@ description: Collection of deep learning tools and frameworks.
 nav_order: 6
 has_children: false
 has_toc: true
+nav_exclude: true
 ---
 
 # Deep Learning Tools and Frameworks

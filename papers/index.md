@@ -5,6 +5,7 @@ description: Collection of deep learning research papers with coverage in percep
 nav_order: 5
 has_children: false
 has_toc: true
+nav_exclude: true
 ---
 
 # Deep Learning Research Papers for Robot Perception
